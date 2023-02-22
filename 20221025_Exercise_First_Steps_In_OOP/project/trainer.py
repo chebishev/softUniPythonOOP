@@ -7,7 +7,7 @@ class Trainer:
         self.pokemons = []
         self.name = name
 
-    def add_pokemon(self, pokemon: Pokemon):
+    def add_pokemon(self, pokemon):
         if pokemon in self.pokemons:
             return "This pokemon is already caught"
 
@@ -15,11 +15,12 @@ class Trainer:
         return f"Caught {pokemon.pokemon_details()}"
 
     def release_pokemon(self, pokemon_name):
-        if pokemon_name not in self.pokemons:
-            return "Pokemon is not caught"
-
-        self.pokemons.remove(pokemon_name)
-        return f"You have released {pokemon_name}"
+        for element in self.pokemons:
+            if element.name == pokemon_name:
+                self.pokemons.remove(element)
+                return f"You have released {pokemon_name}"
+        else:
+            return f"Pokemon is not caught"
 
     def trainer_data(self):
 
