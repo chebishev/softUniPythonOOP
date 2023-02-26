@@ -7,5 +7,5 @@ class User:
     def info(self):
         return ', '.join(sorted(self.books))
 
-    def __str__(self):                          # to check if this is the right value
-        return f"{self.user_id}, {self.username}, {self.info()}"
+    def __str__(self):
+        return f"{self.user_id}, {self.username}, {self.books}"
