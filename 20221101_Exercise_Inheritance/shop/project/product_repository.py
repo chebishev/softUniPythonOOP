@@ -1,21 +1,35 @@
+from project.drink import Drink
+from project.food import Food
+
+
 class ProductRepository:
-    products = []
+    def __init__(self):
+        self.products = []
 
     def add(self, product):
-        ProductRepository.products.append(product)
+        self.products.append(product)
 
     def find(self, product_name):
-        for product in ProductRepository.products:
+        for product in self.products:
             if product.name == product_name:
                 return product
 
     def remove(self, product_name):
-        for product in ProductRepository.products:
-            if product.name == product_name:
-                ProductRepository.products.remove(product)
+        product = self.find(product_name)
+
+        if product:
+            self.products.remove(product)
 
     def __repr__(self):
-        output = []
-        for product in ProductRepository.products:
-            output.append(f"{product}: {product.quantity}")
-        return '\n'.join(output)
+        return '\n'.join([f"{product}: {product.quantity}" for product in self.products])
+
+
+food = Food("apple")
+drink = Drink("water")
+repo = ProductRepository()
+repo.add(food)
+repo.add(drink)
+print(repo.products)
+print(repo.find("water"))
+repo.find("apple").decrease(5)
+print(repo)
