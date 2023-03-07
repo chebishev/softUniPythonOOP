@@ -1,7 +1,3 @@
-from project.animal import Animal
-from project.tiger import Tiger
-
-
 class Zoo:
     def __init__(self, name, budget, animal_capacity, workers_capacity):
         self.__name = name
@@ -41,10 +37,24 @@ class Zoo:
 
     def pay_workers(self):
         pass
+
     # "You have no budget to pay your workers. They are unhappy"
     # "You payed your workers. They are happy. Budget left: {left_budget}"
 
     def tend_animals(self):
         pass
+
     # "You have no budget to tend the animals. They are unhappy."
     # "You tended all the animals. They are happy. Budget left: {left_budget}"
+
+    def check_budget(self, ):
+        dictionary = {
+            "workers": {
+                True: "payed your workers",
+                False: "pay your workers"
+            },
+            "animals": {
+                True: "tended all the animals",
+                False: "tend the animals"
+            }
+        }
