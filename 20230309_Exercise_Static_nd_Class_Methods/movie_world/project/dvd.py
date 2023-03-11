@@ -13,7 +13,7 @@ class DVD:
     @classmethod
     def from_date(cls, id, name, date, age_restriction):
         day, month, year = date.split('.')
-        return cls(id, name, int(year), calendar.month_name[int(month)], age_restriction)
+        return cls(name, id, int(year), calendar.month_name[int(month)], age_restriction)
 
     def __repr__(self):
         return f"{self.id}: {self.name} ({self.creation_month} {self.creation_year}) has age restriction " \

@@ -19,4 +19,5 @@ movie_world.add_dvd(d2)
 print(movie_world.rent_dvd(1, 1))
 print(movie_world.rent_dvd(2, 1))
 print(movie_world.rent_dvd(1, 2))
-# print(movie_world)
+
+print(movie_world)

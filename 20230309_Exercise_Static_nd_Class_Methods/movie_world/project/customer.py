@@ -7,4 +7,4 @@ class Customer:
 
     def __repr__(self):
         return f"{self.id}: {self.name} of age {self.age} has " \
-               f"{len(self.rented_dvds)} rented DVD's ({', '.join(str(d) for d in self.rented_dvds)})"
+               f"{len(self.rented_dvds)} rented DVD's ({', '.join(str(d.name) for d in self.rented_dvds)})"

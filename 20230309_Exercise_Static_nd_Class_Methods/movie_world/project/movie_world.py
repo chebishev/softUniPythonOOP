@@ -37,8 +37,8 @@ class MovieWorld:
         if customer.age < dvd.age_restriction:
             return f"{customer.name} should be at least {dvd.age_restriction} to rent this movie"
 
-        dvd.is_rented = True
         customer.rented_dvds.append(dvd)
+        dvd.is_rented = True
 
         return f"{customer.name} has successfully rented {dvd.name}"
 
@@ -46,12 +46,14 @@ class MovieWorld:
         customer = [c for c in self.customers if c.id == customer_id][0]
         dvd = [d for d in self.dvds if d.id == dvd_id][0]
 
-        if dvd in customer.rented_dvds:
-            customer.rented_dvds.remove(dvd)
-            dvd.is_rented = False
-            return f"{customer.name} has successfully returned {dvd.name}"
+        if dvd not in customer.rented_dvds:
+            return f"{customer.name} does not have that DVD"
 
-        return f"{customer.name} does not have that DVD"
+        customer.rented_dvds.remove(dvd)
+        dvd.is_rented = False
+
+        return f"{customer.name} has successfully returned {dvd.name}"
 
     def __repr__(self):
-        return f"\n".join(str(c) for c in self.customers) + "\n".join(str(d) for d in self.dvds)
+        return f"\n".join(str(c) for c in self.customers) + "\n" +\
+                "\n".join(str(d) for d in self.dvds)
