@@ -3,11 +3,11 @@ class Person:
         self.name = name
         self.surname = surname
 
-    def __str__(self):
+    def __repr__(self):
         return f"{self.name} {self.surname}"
 
     def __add__(self, other):
-        return f"{self.name} {other.surname}"
+        return Person(self.name, other.surname)
 
 
 class Group:
@@ -19,16 +19,13 @@ class Group:
         return len(self.people)
 
     def __add__(self, other):
-        all_people = self.people.copy()
-        all_people.extend(other.people)
-
-        output = []
-        for index, person in enumerate(all_people):
-            output.append(f"Person {index}: {person}")
-        return output
+        return Group(f"{self.name} {other.name}", self.people + other.people)
 
     def __str__(self):
-        return f"Group {self.name} with members {', '.join(str(person) for person in self.people)}"
+        return f"Group {self.name} with members {', '.join(str(p) for p in self.people)}"
+
+    def __getitem__(self, item):
+        return f"Person {item}: {str(self.people[item])}"
 
 
 p0 = Person('Aliko', 'Dangote')
