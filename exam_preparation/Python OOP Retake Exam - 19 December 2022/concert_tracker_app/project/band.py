@@ -14,11 +14,5 @@ class Band:
 
         self.__name = value
 
-    def add_member(self, musician):
-        self.members.append(musician)
-
-    def remove_member(self, musician):
-        self.members.remove(musician)
-
     def __str__(self):
         return f"{self.name} with {len(self.members)} members."

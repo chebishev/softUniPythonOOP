@@ -21,6 +21,9 @@ class ConcertTrackerApp:
     def create_band(self, name):
         pass
 
+    def create_concert(self, genre, audience, ticket_price, expenses, place):
+        pass
+
     def add_musician_to_band(self, musician_name, band_name):
         pass
 
