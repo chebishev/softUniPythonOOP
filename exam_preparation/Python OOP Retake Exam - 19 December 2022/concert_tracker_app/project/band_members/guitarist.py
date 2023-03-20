@@ -2,15 +2,11 @@ from project.band_members.musician import Musician
 
 
 class Guitarist(Musician):
-    GUITARIST_SKILLS = ["play metal", "play rock", "play jazz"]
+    SKILLS = {
+        "play rock": ["Rock"],
+        "play metal": ["Metal"],
+        "play jazz": ["Jazz"]
+    }
 
-    def learn_new_skill(self, new_skill):
-        if new_skill not in Guitarist.GUITARIST_SKILLS:
-            raise ValueError(f"{new_skill} is not a needed skill!")
-
-        if new_skill in self.skills:
-            raise Exception(f"{new_skill} is already learned!")
-
-        self.skills.append(new_skill)
-
-        return f"{self.name} learned to {new_skill}."
+    def check_skills(self):
+        return Guitarist.SKILLS
