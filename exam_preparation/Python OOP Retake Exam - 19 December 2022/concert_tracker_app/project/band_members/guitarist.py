@@ -8,5 +8,6 @@ class Guitarist(Musician):
         "play jazz": ["Jazz"]
     }
 
-    def check_skills(self):
+    @staticmethod
+    def check_skills():
         return Guitarist.SKILLS

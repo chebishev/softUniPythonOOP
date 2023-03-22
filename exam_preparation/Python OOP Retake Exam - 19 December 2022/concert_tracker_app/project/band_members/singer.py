@@ -7,5 +7,6 @@ class Singer(Musician):
         "sing low pitch notes": ["Metal", "Jazz"],
     }
 
-    def check_skills(self):
+    @staticmethod
+    def check_skills():
         return Singer.SKILLS

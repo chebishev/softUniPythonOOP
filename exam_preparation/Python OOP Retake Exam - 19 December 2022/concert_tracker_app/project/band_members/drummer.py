@@ -9,5 +9,6 @@ class Drummer(Musician):
         "read sheet music": []
                        }
 
-    def check_skills(self):
+    @staticmethod
+    def check_skills():
         return Drummer.SKILLS
