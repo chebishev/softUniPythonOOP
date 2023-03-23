@@ -58,7 +58,7 @@ class Concert:
 
     @place.setter
     def place(self, value):
-        if value.strip() == "" or len(value) < 2:
+        if len(value.strip()) < 2:
             raise ValueError("Place must contain at least 2 chars. It cannot be empty!")
 
         self.__place = value

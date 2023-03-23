@@ -41,11 +41,18 @@ class ConcertTrackerApp:
     def create_concert(self, genre, audience, ticket_price, expenses, place):
         for concert in self.concerts:
             if concert.place == place:
-                raise Exception(f"{place} is already registered for {genre} concert!")
+                raise Exception(f"{place} is already registered for {concert.genre} concert!")
         else:
             concert = Concert(genre, audience, ticket_price, expenses, place)
             self.concerts.append(concert)
             return f"{genre} concert in {place} was added."
+
+    def __find_band_by_name(self, name: str):
+        for band in self.bands:
+            if band.name == name:
+                return band
+        else:
+            raise Exception(f"{name} isn't a band!")
 
     def add_musician_to_band(self, musician_name, band_name):
         try:
@@ -53,20 +60,14 @@ class ConcertTrackerApp:
         except IndexError:
             raise Exception(f"{musician_name} is not a musician!")
 
-        try:
-            band = [b for b in self.bands if b.name == band_name][0]
-        except IndexError:
-            raise Exception(f"{band_name} isn't a band!")
+        band = self.__find_band_by_name(band_name)
 
         band.members.append(musician)
 
         return f"{musician_name} was added to {band_name}."
 
     def remove_musician_from_band(self, musician_name, band_name):
-        try:
-            band = [b for b in self.bands if b.name == band_name][0]
-        except IndexError:
-            raise Exception(f"{band_name} isn't a band!")
+        band = self.__find_band_by_name(band_name)
 
         for member in band.members:
             if member.name == musician_name:
@@ -76,7 +77,7 @@ class ConcertTrackerApp:
             raise Exception(f"{musician_name} isn't a member of {band_name}!")
 
     def start_concert(self, concert_place, band_name):
-        band = [b for b in self.bands if b.name == band_name][0]
+        band = self.__find_band_by_name(band_name)
         member_types = {m.__class__.__name__ for m in band.members}
         concert = [c for c in self.concerts if c.place == concert_place][0]
 

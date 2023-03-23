@@ -39,6 +39,7 @@ class Musician(ABC):
 
         return f"{self.name} learned to {new_skill}."
 
+    @staticmethod
     @abstractmethod
-    def check_skills(self):
+    def check_skills():
         pass
