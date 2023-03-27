@@ -87,9 +87,8 @@ class ConcertTrackerApp:
         for member in band.members:
             for skill, genres in member.SKILLS.items():
                 for genre in genres:
-                    if genre == concert.genre:
-                        if skill not in member.skills:
-                            raise Exception(f"The {band_name} band is not ready to play at the concert!")
+                    if genre == concert.genre and skill not in member.skills:
+                        raise Exception(f"The {band_name} band is not ready to play at the concert!")
         else:
             profit = (concert.audience * concert.ticket_price) - concert.expenses
 
