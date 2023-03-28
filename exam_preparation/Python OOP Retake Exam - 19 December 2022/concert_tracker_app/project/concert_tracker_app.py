@@ -58,7 +58,7 @@ class ConcertTrackerApp:
         try:
             musician = [m for m in self.musicians if m.name == musician_name][0]
         except IndexError:
-            raise Exception(f"{musician_name} is not a musician!")
+            raise Exception(f"{musician_name} isn't a musician!")
 
         band = self.__find_band_by_name(band_name)
 
