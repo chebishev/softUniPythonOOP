@@ -1,7 +1,8 @@
 from project.shopping_cart import ShoppingCart
-import unittest
+from unittest import TestCase, main
 
-class ShoppingCartTests(unittest.TestCase):
+
+class ShoppingCartTests(TestCase):
     def setUp(self) -> None:
         self.shopping_cart = ShoppingCart("Shop", 2000)
 
@@ -41,18 +42,16 @@ class ShoppingCartTests(unittest.TestCase):
         self.assertEqual(str(ve.exception), "Product Glasses cost too much!")
 
     def test_remove_from_cart(self):
-        self.shopping_cart.products = {
-            "Glasses": 99.99
-        }
+        self.shopping_cart.add_to_cart("Glasses", 99.99)
+        self.shopping_cart.add_to_cart("Sun Creme", 99.99)
         self.assertEqual(self.shopping_cart.remove_from_cart("Glasses"),
                          f"Product Glasses was successfully removed from the cart!")
-        self.assertEqual(self.shopping_cart.products, {})
+        self.assertEqual(self.shopping_cart.products, {"Sun Creme": 99.99})
 
     def test_invalid_remove_from_cart(self):
         with self.assertRaises(ValueError) as ve:
             self.shopping_cart.remove_from_cart("Glasses")
         self.assertEqual(str(ve.exception), "No product with name Glasses in the cart!")
-        self.assertEqual(self.shopping_cart.products, {})
 
     def test_add_method(self):
         self.shopping_cart.products = {
@@ -84,3 +83,7 @@ class ShoppingCartTests(unittest.TestCase):
         with self.assertRaises(ValueError) as ve:
             self.shopping_cart.buy_products()
         self.assertEqual(str(ve.exception), f"Not enough money to buy the products! Over budget with 2.00lv!")
+
+
+if __name__ == "__main__":
+    main()

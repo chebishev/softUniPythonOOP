@@ -40,15 +40,3 @@ class ShoppingCart:
         if total_sum > self.budget:
             raise ValueError(f"Not enough money to buy the products! Over budget with {total_sum - self.budget:.2f}lv!")
         return f'Products were successfully bought! Total cost: {total_sum:.2f}lv.'
-
-cart = ShoppingCart("AliExpress", 100)
-
-cart.add_to_cart("Glasses", 99.99)
-print(cart.products)
-cart.products = {
-    "Sun Creme": 99.99,
-    "Glasses": 99.99
-}
-print(cart.remove_from_cart("Sun Creme"))
-print(cart.remove_from_cart("Sun Creme"))
-print(cart.products)

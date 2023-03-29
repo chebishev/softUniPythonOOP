@@ -15,6 +15,7 @@ class FoodOrdersApp:
     def __init__(self):
         self.menu = []
         self.clients_list = []
+        self.current_shopping_cart = {}
 
     @staticmethod
     def get_next_id():
@@ -60,6 +61,9 @@ class FoodOrdersApp:
             self.register_client(client_phone_number)
             client = self.get_client(client_phone_number)
 
+        meals_to_order = []
+        current_bill = 0
+
         meal_names = [m.name for m in self.menu]  # get the meal names from the menu
         for meal_name, quantity in meal_names_and_quantities.items():
             if meal_name not in meal_names:
@@ -67,19 +71,19 @@ class FoodOrdersApp:
 
             current_meal = [m for m in self.menu if m.name == meal_name][0]
             if current_meal.quantity < quantity:
-                client.shopping_cart = []
-
                 raise Exception(f"Not enough quantity of {current_meal.__class__.__name__}: {meal_name}!")
 
-            ordered_meal = self.VALID_MEALS[current_meal.__class__.__name__](meal_name, current_meal.price, quantity)
-            client.shopping_cart.append(ordered_meal)
+            meals_to_order.append(current_meal)
+            current_bill += current_meal.price * quantity
+            self.current_shopping_cart[meal_name] = quantity
+
+        client.shopping_cart.extend(meals_to_order)
+        client.bill += current_bill
 
         for meal_name, quantity in meal_names_and_quantities.items():
             for meal in self.menu:
                 if meal.name == meal_name:
                     meal.quantity -= quantity
-
-        client.bill = sum((m.quantity * m.price) for m in client.shopping_cart)
 
         return f"Client {client_phone_number} successfully ordered {', '.join(m.name for m in client.shopping_cart)} " \
                f"for {client.bill:.2f}lv."
@@ -89,10 +93,10 @@ class FoodOrdersApp:
 
         self.check_shopping_cart(client)  # raises exception if shopping cart is empty
 
-        for meal in self.menu:
-            for order in client.shopping_cart:
-                if order.name == meal.name:
-                    meal.quantity += order.quantity
+        for meal_name, quantity in self.current_shopping_cart.items():
+            for meal in self.menu:
+                if meal.name == meal_name:
+                    meal.quantity += quantity
 
         client.shopping_cart = []
         client.bill = 0.0
