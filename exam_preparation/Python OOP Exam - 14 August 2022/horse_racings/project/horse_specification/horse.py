@@ -34,6 +34,15 @@ class Horse(ABC):
     def maximum_speed():
         ...
 
+    @staticmethod
     @abstractmethod
-    def train(self):
+    def train_speed():
         ...
+
+    def train(self):
+        if self.speed + self.train_speed() > self.maximum_speed():
+            self.speed = self.maximum_speed()
+        else:
+            self.speed += self.train_speed()
+
+
