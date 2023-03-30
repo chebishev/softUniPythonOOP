@@ -1,5 +1,5 @@
-from project.computer_types.desktop_computer import DesktopComputer
-from project.computer_types.laptop import Laptop
+from horse_racings.project import DesktopComputer
+from horse_racings.project import Laptop
 
 
 class ComputerStoreApp:

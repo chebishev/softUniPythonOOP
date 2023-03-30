@@ -1,4 +1,4 @@
-from project.shopping_cart import ShoppingCart
+from horse_racings.project import ShoppingCart
 from unittest import TestCase, main
 
 

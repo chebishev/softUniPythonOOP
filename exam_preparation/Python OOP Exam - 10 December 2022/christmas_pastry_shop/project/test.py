@@ -1,4 +1,4 @@
-from project.christmas_pastry_shop_app import ChristmasPastryShopApp
+from horse_racings.project import ChristmasPastryShopApp
 
 shop = ChristmasPastryShopApp()
 print(shop.add_delicacy("Gingerbread", "Gingy", 5.20))

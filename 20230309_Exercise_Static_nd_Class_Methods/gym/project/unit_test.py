@@ -1,9 +1,9 @@
-from project.customer import Customer
-from project.equipment import Equipment
-from project.exercise_plan import ExercisePlan
-from project.gym import Gym
-from project.subscription import Subscription
-from project.trainer import Trainer
+from horse_racings.project import Customer
+from horse_racings.project import Equipment
+from horse_racings.project import ExercisePlan
+from horse_racings.project import Gym
+from horse_racings.project import Subscription
+from horse_racings.project import Trainer
 
 import unittest
 

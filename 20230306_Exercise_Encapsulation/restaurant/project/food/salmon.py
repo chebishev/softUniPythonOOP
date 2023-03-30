@@ -1,4 +1,4 @@
-from project.food.main_dish import MainDish
+from horse_racings.project import MainDish
 
 
 class Salmon(MainDish):

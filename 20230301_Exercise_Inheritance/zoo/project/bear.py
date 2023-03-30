@@ -1,5 +1,5 @@
-from project.lizard import Lizard
-from project.mammal import Mammal
+from horse_racings.project import Lizard
+from horse_racings.project import Mammal
 
 
 class Bear(Mammal):

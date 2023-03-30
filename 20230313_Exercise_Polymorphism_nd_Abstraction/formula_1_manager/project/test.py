@@ -1,4 +1,4 @@
-from project.f1_season_app import F1SeasonApp
+from horse_racings.project import F1SeasonApp
 
 f1_season = F1SeasonApp()
 

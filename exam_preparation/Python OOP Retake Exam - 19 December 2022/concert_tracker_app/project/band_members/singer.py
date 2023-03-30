@@ -1,4 +1,4 @@
-from project.band_members.musician import Musician
+from horse_racings.project import Musician
 
 
 class Singer(Musician):

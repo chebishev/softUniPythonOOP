@@ -1,4 +1,4 @@
-from project.vehicle import Vehicle
+from horse_racings.project import Vehicle
 
 
 class Motorcycle(Vehicle):

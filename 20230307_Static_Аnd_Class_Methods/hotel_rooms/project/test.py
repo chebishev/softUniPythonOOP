@@ -1,5 +1,5 @@
-from project.hotel import Hotel
-from project.room import Room
+from horse_racings.project import Hotel
+from horse_racings.project import Room
 
 hotel = Hotel.from_stars(5)
 

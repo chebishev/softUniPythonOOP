@@ -1,5 +1,5 @@
-from project.formula_teams.mercedes_team import MercedesTeam
-from project.formula_teams.red_bull_team import RedBullTeam
+from horse_racings.project import MercedesTeam
+from horse_racings.project import RedBullTeam
 
 
 class F1SeasonApp:

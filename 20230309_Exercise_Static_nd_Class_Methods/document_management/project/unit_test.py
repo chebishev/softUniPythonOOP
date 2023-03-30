@@ -1,7 +1,7 @@
-from project.category import Category
-from project.document import Document
-from project.storage import Storage
-from project.topic import Topic
+from horse_racings.project import Category
+from horse_racings.project import Document
+from horse_racings.project import Storage
+from horse_racings.project import Topic
 
 import unittest
 

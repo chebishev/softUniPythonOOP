@@ -1,4 +1,4 @@
-from project.beverage.hot_beverage import HotBeverage
+from horse_racings.project import HotBeverage
 
 
 class Tea(HotBeverage):

@@ -1,4 +1,4 @@
-from project.computer_types.computer import Computer
+from horse_racings.project import Computer
 
 
 class Laptop(Computer):

@@ -1,5 +1,5 @@
-from project.drink import Drink
-from project.food import Food
+from horse_racings.project import Drink
+from horse_racings.project import Food
 
 
 class ProductRepository:

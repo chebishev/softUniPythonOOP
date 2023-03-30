@@ -1,4 +1,4 @@
-from project.meals.meal import Meal
+from horse_racings.project import Meal
 
 
 class Dessert(Meal):

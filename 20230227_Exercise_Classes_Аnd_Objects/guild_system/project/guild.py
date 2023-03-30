@@ -1,4 +1,4 @@
-from project.player import Player
+from horse_racings.project import Player
 
 
 class Guild:

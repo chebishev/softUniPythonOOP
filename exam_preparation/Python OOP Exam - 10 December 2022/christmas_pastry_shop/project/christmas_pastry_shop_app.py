@@ -1,7 +1,7 @@
-from project.booths.open_booth import OpenBooth
-from project.booths.private_booth import PrivateBooth
-from project.delicacies.gingerbread import Gingerbread
-from project.delicacies.stolen import Stolen
+from horse_racings.project import OpenBooth
+from horse_racings.project import PrivateBooth
+from horse_racings.project import Gingerbread
+from horse_racings.project import Stolen
 
 
 class ChristmasPastryShopApp:

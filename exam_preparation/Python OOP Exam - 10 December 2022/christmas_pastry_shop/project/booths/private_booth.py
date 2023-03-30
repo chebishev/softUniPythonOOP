@@ -1,4 +1,4 @@
-from project.booths.booth import Booth
+from horse_racings.project import Booth
 
 
 class PrivateBooth(Booth):

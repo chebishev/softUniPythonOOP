@@ -1,5 +1,5 @@
 from unittest import TestCase, main
-from project.f1_season_app import F1SeasonApp
+from horse_racings.project import F1SeasonApp
 
 
 class TestF1SeasonAppClass(TestCase):

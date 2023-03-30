@@ -1,5 +1,5 @@
-from unittest import TestCase, main
-from project.student import Student
+from unittest import TestCase
+from horse_racings.project import Student
 
 
 class TestStudent(TestCase):

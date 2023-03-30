@@ -1,5 +1,4 @@
-from project.dough import Dough
-from project.topping import Topping
+from horse_racings.project import Topping
 
 
 class Pizza:

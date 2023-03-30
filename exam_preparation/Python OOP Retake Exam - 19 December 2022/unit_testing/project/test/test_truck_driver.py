@@ -1,4 +1,4 @@
-from project.truck_driver import TruckDriver
+from horse_racings.project import TruckDriver
 import unittest
 
 

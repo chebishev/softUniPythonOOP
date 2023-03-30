@@ -1,5 +1,4 @@
-from abc import ABC, abstractmethod
-from project.animals.animal import Bird
+from horse_racings.project import Bird
 
 
 class Owl(Bird):

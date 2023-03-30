@@ -1,4 +1,4 @@
-from project.concert_tracker_app import ConcertTrackerApp
+from horse_racings.project import ConcertTrackerApp
 
 musician_types = ["Singer", "Drummer", "Guitarist"]
 names = ["George", "Alex", "Lilly"]

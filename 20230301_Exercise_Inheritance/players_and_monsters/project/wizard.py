@@ -1,5 +1,5 @@
-from project.elf import Elf
-from project.hero import Hero
+from horse_racings.project import Elf
+from horse_racings.project import Hero
 
 
 class Wizard(Hero):

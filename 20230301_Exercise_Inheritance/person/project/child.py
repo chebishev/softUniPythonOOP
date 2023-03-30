@@ -1,4 +1,4 @@
-from project.person import Person
+from horse_racings.project import Person
 
 
 class Child(Person):

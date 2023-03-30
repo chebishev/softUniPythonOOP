@@ -1,4 +1,4 @@
-from project.task import Task
+from horse_racings.project import Task
 
 
 class Section:

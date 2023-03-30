@@ -1,6 +1,6 @@
-from project.reptile import Reptile
-from project.mammal import Mammal
-from project.lizard import Lizard
+from horse_racings.project import Reptile
+from horse_racings.project import Mammal
+from horse_racings.project import Lizard
 
 
 class Snake(Reptile):

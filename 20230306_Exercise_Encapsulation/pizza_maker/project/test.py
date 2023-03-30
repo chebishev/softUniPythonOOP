@@ -1,6 +1,6 @@
-from project.dough import Dough
-from project.pizza import Pizza
-from project.topping import Topping
+from horse_racings.project import Dough
+from horse_racings.project import Pizza
+from horse_racings.project import Topping
 
 
 tomato_topping = Topping("Tomato", 60)

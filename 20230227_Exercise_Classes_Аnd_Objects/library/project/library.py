@@ -1,4 +1,4 @@
-from project.user import User
+from horse_racings.project import User
 
 
 class Library:

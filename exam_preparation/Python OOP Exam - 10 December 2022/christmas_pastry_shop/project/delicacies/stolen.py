@@ -1,4 +1,4 @@
-from project.delicacies.delicacy import Delicacy
+from horse_racings.project import Delicacy
 
 
 class Stolen(Delicacy):

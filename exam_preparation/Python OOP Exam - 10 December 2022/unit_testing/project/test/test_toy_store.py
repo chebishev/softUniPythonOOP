@@ -1,4 +1,4 @@
-from project.toy_store import ToyStore
+from horse_racings.project import ToyStore
 import unittest
 
 

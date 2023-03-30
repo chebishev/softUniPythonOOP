@@ -1,5 +1,5 @@
-from project.library import Library
-from project.user import User
+from horse_racings.project import Library
+from horse_racings.project import User
 
 
 class Registration:

@@ -1,4 +1,4 @@
-from project.motorcycle import Motorcycle
+from horse_racings.project import Motorcycle
 
 
 class CrossMotorcycle(Motorcycle):

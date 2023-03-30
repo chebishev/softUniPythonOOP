@@ -1,4 +1,4 @@
-from project.animals.animal import Mammal
+from horse_racings.project import Mammal
 
 
 class Mouse(Mammal):

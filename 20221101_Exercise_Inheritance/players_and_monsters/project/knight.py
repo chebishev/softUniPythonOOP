@@ -1,4 +1,4 @@
-from project.hero import Hero
+from horse_racings.project import Hero
 
 
 class Knight(Hero):
