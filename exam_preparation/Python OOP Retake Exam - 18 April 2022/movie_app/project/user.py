@@ -26,6 +26,7 @@ class User:
             raise ValueError("Users under the age of 6 are not allowed!")
 
         self.__age = value
+
     def __str__(self):
         result = [f"Username: {self.username}, Age: {self.age}", "Liked movies:"]
         if self.movies_liked:
@@ -41,7 +42,3 @@ class User:
             result.append("No movies owned.")
 
         return "\n".join(result)
-
-
-user = User("John Doe", 8)
-print(str(user))

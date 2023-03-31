@@ -49,19 +49,21 @@ class Movie(ABC):
 
     @age_restriction.setter
     def age_restriction(self, value):
-        if value < self.minimum_age():
-            raise ValueError(f"{self.movie_genre()} movies must be restricted for audience under 6 years!")
+        if value < self.minimum_age:
+            raise ValueError(f"{self.movie_genre} movies must be "
+                             f"restricted for audience under {self.minimum_age} years!")
 
-    @staticmethod
-    @abstractmethod
-    def movie_genre():
-        ...
+        self.__age_restriction = value
 
-    @staticmethod
+    @property
+    def movie_genre(self):
+        return self.__class__.__name__
+
+    @property
     @abstractmethod
-    def minimum_age():
+    def minimum_age(self):
         ...
 
     def details(self):
-        return f"{self.movie_genre()} - Title:{self.title}, Year:{self.year}, Age restriction:{self.age_restriction}," \
-               f" Likes:{self.likes}, Owned by:{self.owner.username}"
+        return f"{self.movie_genre} - Title:{self.title}, Year:{self.year}, Age restriction:{self.age_restriction}, " \
+               f"Likes:{self.likes}, Owned by:{self.owner.username}"
