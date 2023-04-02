@@ -21,12 +21,16 @@ class TestStudentReportCard(TestCase):
         self.assertEqual(str(ve.exception), "School Year must be between 1 and 12!")
 
     def test_add_grade_existing_subject(self):
-        self.student_report_card.grades_by_subject["Maths"] = [5]
+        self.student_report_card.grades_by_subject = {
+            "Maths": [5],
+        }
         self.student_report_card.add_grade("Maths", 5)
         self.assertEqual(self.student_report_card.grades_by_subject, {"Maths": [5, 5]})
 
     def test_add_grade_missing_subject(self):
-        self.student_report_card.grades_by_subject["Maths"] = [5]
+        self.student_report_card.grades_by_subject = {
+            "Maths": [5],
+        }
         self.student_report_card.add_grade("Chem", 2)
         self.assertEqual(self.student_report_card.grades_by_subject, {"Maths": [5], "Chem": [2]})
 

@@ -31,19 +31,16 @@ class MovieApp:
 
     def upload_movie(self, username, movie) -> str:
 
-        for user in self.users_collection:
-            if user.username == username:
-                break
-        else:
+        try:
+            user = self.get_user(username)[0]
+        except IndexError:
             raise Exception("This user does not exist!")
 
-        user = self.get_user(username)[0]
-        if not movie.owner == user:
-            raise Exception(f"{username} is not the owner of the movie {movie.title}!")
+        if movie.owner.username != user.username:
+            raise Exception(f"{user.username} is not the owner of the movie {movie.title}!")
 
-        for m in self.movies_collection:
-            if m.title == movie.title:
-                raise Exception("Movie already added to the collection!")
+        if movie in self.movies_collection:
+            raise Exception("Movie already added to the collection!")
 
         user.movies_owned.append(movie)
         self.movies_collection.append(movie)
@@ -54,7 +51,7 @@ class MovieApp:
         self.check_movie(movie)
 
         user = self.get_user(username)[0]
-        if movie.owner != user:
+        if movie.owner.username != user.username:
             raise Exception(f"{username} is not the owner of the movie {movie.title}!")
 
         for k, v in kwargs.items():

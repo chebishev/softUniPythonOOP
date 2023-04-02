@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ff3f776-c98b-4b23-8328-2d3b10637ae3" name="Changes" comment="Python OOP Retake Exam - 22 Aug 2020 - 200/300">
-      <change beforePath="$PROJECT_DIR$/.idea/softUniPythonOOP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/softUniPythonOOP.iml" afterDir="false" />
+    <list default="true" id="6ff3f776-c98b-4b23-8328-2d3b10637ae3" name="Changes" comment="Python OOP Retake Exam - 18 April 2022 - 281/300">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 18 April 2022/movie_app/project.zip" beforeDir="false" afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 18 April 2022/movie_app/project.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 18 April 2022/movie_app/project/movie_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 18 April 2022/movie_app/project/movie_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 Aug 2020/unit_testing/project/test/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 Aug 2020/unit_testing/project/test/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +75,7 @@
       <recent name="C:\Users\hp\PycharmProjects\softUniPythonOOP\exam_preparation\Python OOP Exam - 10 December 2022\unit_testing" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python tests.Python tests for test.TestStudentReportCard.test_school_year_out_of_valid_range_raises_error">
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="softUniPythonOOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,7 +128,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test.TestStudentReportCard.test_average_grade_by_subject" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test.TestStudentReportCard.test_invalid_student_name_raises_value_error" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="softUniPythonOOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,11 +139,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.TestStudentReportCard.test_average_grade_by_subject&quot;" />
+      <option name="_new_target" value="&quot;test.TestStudentReportCard.test_invalid_student_name_raises_value_error&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test.TestStudentReportCard.test_average_grade_for_all_subjects" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test.TestStudentReportCard.test_school_year_out_of_valid_range_raises_error" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="softUniPythonOOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -154,17 +154,17 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.TestStudentReportCard.test_average_grade_for_all_subjects&quot;" />
+      <option name="_new_target" value="&quot;test.TestStudentReportCard.test_school_year_out_of_valid_range_raises_error&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test.TestStudentReportCard.test_school_year_out_of_valid_range_raises_error" />
+        <item itemvalue="Python tests.Python tests for test.TestStudentReportCard.test_invalid_student_name_raises_value_error" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python tests.Python tests for test.TestStudentReportCard" />
         <item itemvalue="Python tests.Python tests for test.TestStudentReportCard.test__repr_method" />
-        <item itemvalue="Python tests.Python tests for test.TestStudentReportCard.test_average_grade_for_all_subjects" />
-        <item itemvalue="Python tests.Python tests for test.TestStudentReportCard.test_average_grade_by_subject" />
       </list>
     </recent_temporary>
   </component>
@@ -229,14 +229,7 @@
       <workItem from="1680152943204" duration="19589000" />
       <workItem from="1680240583997" duration="16080000" />
       <workItem from="1680427359092" duration="428000" />
-      <workItem from="1680427863633" duration="13943000" />
-    </task>
-    <task id="LOCAL-00014" summary="Lab: Inheritance - Completed">
-      <created>1677496827142</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1677496827142</updated>
+      <workItem from="1680427863633" duration="15369000" />
     </task>
     <task id="LOCAL-00015" summary="Exercises: Inheritance 4/5">
       <created>1677586619821</created>
@@ -574,7 +567,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680438383204</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Python OOP Retake Exam - 18 April 2022 - 281/300">
+      <created>1680442814055</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1680442814055</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -593,7 +593,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Exercise: Polymorphism and Abstraction 2/6" />
     <MESSAGE value="Exercise: Polymorphism and Abstraction 5/6" />
     <MESSAGE value="Exercise: Polymorphism and Abstraction - Completed" />
     <MESSAGE value="Lab: SOLID - Completed" />
@@ -618,7 +617,8 @@
     <MESSAGE value="Python OOP Retake Exam - 18 April 2022 -= 181/300" />
     <MESSAGE value="Python OOP Retake Exam - 22 Aug 2020 - Epic fail 109/200" />
     <MESSAGE value="Python OOP Retake Exam - 22 Aug 2020 - 200/300" />
-    <option name="LAST_COMMIT_MESSAGE" value="Python OOP Retake Exam - 22 Aug 2020 - 200/300" />
+    <MESSAGE value="Python OOP Retake Exam - 18 April 2022 - 281/300" />
+    <option name="LAST_COMMIT_MESSAGE" value="Python OOP Retake Exam - 18 April 2022 - 281/300" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -676,7 +676,7 @@
     <SUITE FILE_PATH="coverage/softUniPythonOOP$countdown_iterator.coverage" NAME="countdown_iterator Coverage Results" MODIFIED="1679385805420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230320_Exercise_Iterators_And_Generators" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$html_tags.coverage" NAME="html_tags Coverage Results" MODIFIED="1679648681609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230323_Exercise_Decorators" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$workers_updated.coverage" NAME="workers_updated Coverage Results" MODIFIED="1679053031763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230316_Exercise_SOLID" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$.coverage" NAME=" Coverage Results" MODIFIED="1680438246666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 Aug 2020/unit_testing/project/test" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$.coverage" NAME=" Coverage Results" MODIFIED="1680443115205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 Aug 2020/unit_testing/project/test" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$prime_numbers.coverage" NAME="prime_numbers Coverage Results" MODIFIED="1679404356067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230320_Exercise_Iterators_And_Generators" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$animal.coverage" NAME="animal Coverage Results" MODIFIED="1679040476504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230314_SOLID/02_OCP" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$take_skip.coverage" NAME="take_skip Coverage Results" MODIFIED="1679381878622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230320_Exercise_Iterators_And_Generators" />
