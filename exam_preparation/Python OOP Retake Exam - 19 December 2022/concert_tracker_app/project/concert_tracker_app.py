@@ -1,8 +1,8 @@
-from horse_racings.project import Band
-from horse_racings.project import Drummer
-from horse_racings.project import Guitarist
-from horse_racings.project import Singer
-from horse_racings.project import Concert
+from project.band import Band
+from project.band_members.drummer import Drummer
+from project.band_members.guitarist import Guitarist
+from project.singer import Singer
+from project.concert import Concert
 
 
 class ConcertTrackerApp:
