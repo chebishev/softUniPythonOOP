@@ -31,13 +31,13 @@ class User:
         result = [f"Username: {self.username}, Age: {self.age}", "Liked movies:"]
         if self.movies_liked:
             for movie in self.movies_liked:
-                result.append(f"{movie.details}")
+                result.append(f"{movie.details()}")
         else:
             result.append("No movies liked.")
         result.append("Owned movies:")
         if self.movies_owned:
             for movie in self.movies_owned:
-                result.append(f"{movie.details}")
+                result.append(f"{movie.details()}")
         else:
             result.append("No movies owned.")
 

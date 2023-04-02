@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ff3f776-c98b-4b23-8328-2d3b10637ae3" name="Changes" comment="Python OOP Retake Exam - 18 April 2022 - 281/300">
+    <list default="true" id="6ff3f776-c98b-4b23-8328-2d3b10637ae3" name="Changes" comment="Python OOP Retake Exam - 18 April 2022 - 285/300">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 18 April 2022/movie_app/project.zip" beforeDir="false" afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 18 April 2022/movie_app/project.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 18 April 2022/movie_app/project/movie_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 18 April 2022/movie_app/project/movie_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 18 April 2022/movie_app/project/movie_specification/movie.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 18 April 2022/movie_app/project/movie_specification/movie.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 18 April 2022/movie_app/project/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 18 April 2022/movie_app/project/user.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,14 +232,7 @@
       <workItem from="1680240583997" duration="16080000" />
       <workItem from="1680427359092" duration="428000" />
       <workItem from="1680427863633" duration="15369000" />
-      <workItem from="1680455746615" duration="2464000" />
-    </task>
-    <task id="LOCAL-00015" summary="Exercises: Inheritance 4/5">
-      <created>1677586619821</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1677586619821</updated>
+      <workItem from="1680455746615" duration="4673000" />
     </task>
     <task id="LOCAL-00016" summary="Exercises: Inheritance 4,92/5">
       <created>1677592811591</created>
@@ -575,7 +570,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680442814055</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Python OOP Retake Exam - 18 April 2022 - 285/300">
+      <created>1680458265384</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1680458265384</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -594,7 +596,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Exercise: Polymorphism and Abstraction 5/6" />
     <MESSAGE value="Exercise: Polymorphism and Abstraction - Completed" />
     <MESSAGE value="Lab: SOLID - Completed" />
     <MESSAGE value="Exercise: SOLID - 4/5" />
@@ -619,7 +620,8 @@
     <MESSAGE value="Python OOP Retake Exam - 22 Aug 2020 - Epic fail 109/200" />
     <MESSAGE value="Python OOP Retake Exam - 22 Aug 2020 - 200/300" />
     <MESSAGE value="Python OOP Retake Exam - 18 April 2022 - 281/300" />
-    <option name="LAST_COMMIT_MESSAGE" value="Python OOP Retake Exam - 18 April 2022 - 281/300" />
+    <MESSAGE value="Python OOP Retake Exam - 18 April 2022 - 285/300" />
+    <option name="LAST_COMMIT_MESSAGE" value="Python OOP Retake Exam - 18 April 2022 - 285/300" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -654,7 +656,7 @@
     <SUITE FILE_PATH="coverage/softUniPythonOOP$squares.coverage" NAME="squares Coverage Results" MODIFIED="1679149221821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230317_Iterators_And_Generators" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$number_increment.coverage" NAME="number_increment Coverage Results" MODIFIED="1679467054803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230321_Decorators" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$execution_time.coverage" NAME="execution_time Coverage Results" MODIFIED="1679649127937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230323_Exercise_Decorators" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$test.coverage" NAME="test Coverage Results" MODIFIED="1680458176267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 18 April 2022/movie_app/project" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$test.coverage" NAME="test Coverage Results" MODIFIED="1680460114950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 18 April 2022/movie_app/project" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$animal.coverage" NAME="animal Coverage Results" MODIFIED="1679040476504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230314_SOLID/02_OCP" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$multiply.coverage" NAME="multiply Coverage Results" MODIFIED="1679467423951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230321_Decorators" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$books.coverage" NAME="books Coverage Results" MODIFIED="1678958318892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230314_SOLID/01_SRP" />
