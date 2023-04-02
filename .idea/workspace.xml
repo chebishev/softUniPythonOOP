@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ff3f776-c98b-4b23-8328-2d3b10637ae3" name="Changes" comment="Python OOP Retake Exam - 18 April 2022 - 285/300">
+    <list default="true" id="6ff3f776-c98b-4b23-8328-2d3b10637ae3" name="Changes" comment="Python OOP Retake Exam - 18 April 2022 - 300/300">
+      <change beforePath="$PROJECT_DIR$/.idea/softUniPythonOOP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/softUniPythonOOP.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 18 April 2022/movie_app/project.zip" beforeDir="false" afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 18 April 2022/movie_app/project.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 18 April 2022/movie_app/project/movie_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 18 April 2022/movie_app/project/movie_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 18 April 2022/movie_app/project/movie_specification/movie.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 18 April 2022/movie_app/project/movie_specification/movie.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 18 April 2022/movie_app/project/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 18 April 2022/movie_app/project/user.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +61,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -232,14 +229,7 @@
       <workItem from="1680240583997" duration="16080000" />
       <workItem from="1680427359092" duration="428000" />
       <workItem from="1680427863633" duration="15369000" />
-      <workItem from="1680455746615" duration="4673000" />
-    </task>
-    <task id="LOCAL-00016" summary="Exercises: Inheritance 4,92/5">
-      <created>1677592811591</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1677592811591</updated>
+      <workItem from="1680455746615" duration="5345000" />
     </task>
     <task id="LOCAL-00017" summary="Exercises: Inheritance - Completed">
       <created>1677655859283</created>
@@ -577,7 +567,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680458265384</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Python OOP Retake Exam - 18 April 2022 - 300/300">
+      <created>1680460551671</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1680460551671</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -596,7 +593,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Exercise: Polymorphism and Abstraction - Completed" />
     <MESSAGE value="Lab: SOLID - Completed" />
     <MESSAGE value="Exercise: SOLID - 4/5" />
     <MESSAGE value="Exercise: SOLID - Completed" />
@@ -621,7 +617,8 @@
     <MESSAGE value="Python OOP Retake Exam - 22 Aug 2020 - 200/300" />
     <MESSAGE value="Python OOP Retake Exam - 18 April 2022 - 281/300" />
     <MESSAGE value="Python OOP Retake Exam - 18 April 2022 - 285/300" />
-    <option name="LAST_COMMIT_MESSAGE" value="Python OOP Retake Exam - 18 April 2022 - 285/300" />
+    <MESSAGE value="Python OOP Retake Exam - 18 April 2022 - 300/300" />
+    <option name="LAST_COMMIT_MESSAGE" value="Python OOP Retake Exam - 18 April 2022 - 300/300" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
