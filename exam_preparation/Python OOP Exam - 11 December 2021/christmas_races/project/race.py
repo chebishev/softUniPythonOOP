@@ -2,6 +2,7 @@ class Race:
     def __init__(self, name):
         self.name = name
         self.drivers = []
+        self.drivers_names = []
 
     @property
     def name(self):
