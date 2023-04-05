@@ -32,11 +32,8 @@ class Controller:
         if player.stamina == 100:
             return f"{player_name} have enough stamina."
 
-        if len([x for x in self.supplies if x.__class__.__name__ == "Food"]) == 0:
-            raise Exception("There are no food supplies left!")
-
-        if len([x for x in self.supplies if x.__class__.__name__ == "Drink"]) == 0:
-            raise Exception("There are no drink supplies left!")
+        if not [x for x in self.supplies if x.__class__.__name__ == sustenance_type]:
+            raise Exception(f"There are no {sustenance_type.lower()} supplies left!")
 
         for index in range(len(self.supplies) - 1, -1, -1):
             supply = self.supplies[index]
