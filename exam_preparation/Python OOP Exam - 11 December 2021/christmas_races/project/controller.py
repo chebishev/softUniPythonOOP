@@ -70,6 +70,8 @@ class Controller:
                     driver.car = car
                     car.is_taken = True
                     return f"Driver {driver.name} changed his car from {driver_old_car} to {car.model}."
+        else:
+            raise Exception(f"Car {car_type} could not be found!")
 
     def add_driver_to_race(self, race_name, driver_name):
         if race_name not in self.RACE_NAMES:
