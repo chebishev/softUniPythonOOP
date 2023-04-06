@@ -23,7 +23,5 @@ class Room:
     def calculate_expenses(self, *args):
         for current_list in args:
             for element in current_list:
-                if type(element) == Appliance:
-                    self.expenses += element.get_monthly_expense
-                elif type(element) == Child:
-                    self.expenses += element.cost
+                self.expenses += element.get_monthly_expense()
+

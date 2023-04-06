@@ -1,7 +1,7 @@
-from horse_racings.project import Client
-from horse_racings.project import Dessert
-from horse_racings.project import MainDish
-from horse_racings.project import Starter
+from project.client import Client
+from project.meals_dessert import Dessert
+from project.meals.main_dish import MainDish
+from project.meals.starter import Starter
 
 
 class FoodOrdersApp:
@@ -61,7 +61,9 @@ class FoodOrdersApp:
             self.register_client(client_phone_number)
             client = self.get_client(client_phone_number)
 
-        meals_to_order = []
+        meals_to_order = []  # it will contain all the valid meals, which will be added into the shopping cart just
+        # before finishing the order
+
         current_bill = 0
 
         meal_names = [m.name for m in self.menu]  # get the meal names from the menu

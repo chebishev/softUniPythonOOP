@@ -5,9 +5,10 @@ from project.appliances.fridge import Fridge
 
 
 class OldCouple(Room):
+    MEMBERS_COUNT = 2
+
     def __init__(self, family_name, pension_one, pension_two):
-        super().__init__(family_name, self.budget, self.members_count)
-        self.budget = pension_one + pension_two
-        self.members_count = 2
+        super().__init__(family_name, pension_one + pension_two, self.MEMBERS_COUNT)
         self.room_cost = 15
-        self.appliances = [TV, Fridge, Stove] * self.members_count
+        self.appliances = [TV(), Fridge(), Stove()] * self.members_count
+        self.calculate_expenses(self.appliances)
