@@ -3,8 +3,8 @@ from project.people.child import Child
 
 
 class Room:
-    def __init__(self, name, budget, members_count):
-        self.family_name = name
+    def __init__(self, family_name, budget, members_count):
+        self.family_name = family_name
         self.budget = budget
         self.members_count = members_count
         self.children = []

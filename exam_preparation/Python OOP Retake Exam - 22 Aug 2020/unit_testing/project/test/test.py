@@ -15,10 +15,19 @@ class TestStudentReportCard(TestCase):
             StudentReportCard("", 1)
         self.assertEqual(str(ve.exception), "Student Name cannot be an empty string!")
 
-    def test_school_year_out_of_valid_range_raises_error(self):
+    def test_school_year_over_valid_range_raises_error(self):
         with self.assertRaises(ValueError) as ve:
             StudentReportCard("John Doe", 13)
         self.assertEqual(str(ve.exception), "School Year must be between 1 and 12!")
+
+    def test_school_year_under_valid_range_raises_error(self):
+        with self.assertRaises(ValueError) as ve:
+            StudentReportCard("John Doe", 0)
+        self.assertEqual(str(ve.exception), "School Year must be between 1 and 12!")
+
+    def test_school_year_valid(self):
+        cart = StudentReportCard("John Doe", 12)
+        self.assertEqual(cart.school_year, 12)
 
     def test_add_grade_existing_subject(self):
         self.student_report_card.grades_by_subject = {

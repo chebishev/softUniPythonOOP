@@ -4,24 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ff3f776-c98b-4b23-8328-2d3b10637ae3" name="Changes" comment="Little tweak for Python OOP Exam - 10 April 2022 solution">
-      <change afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 23 August 2021/space_station/project/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 23 August 2021/space_station/project/astronaut/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 23 August 2021/space_station/project/astronaut/astronaut.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 23 August 2021/space_station/project/astronaut/astronaut_repository.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 23 August 2021/space_station/project/astronaut/biologist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 23 August 2021/space_station/project/astronaut/geodesist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 23 August 2021/space_station/project/astronaut/meteorologist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 23 August 2021/space_station/project/planet/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 23 August 2021/space_station/project/planet/planet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 23 August 2021/space_station/project/planet/planet_repository.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 23 August 2021/space_station/project/space_station.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 23 August 2021/unit_test/project/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 23 August 2021/unit_test/project/library.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 23 August 2021/unit_test/project/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 23 August 2021/unit_test/project/test/test.py" afterDir="false" />
+    <list default="true" id="6ff3f776-c98b-4b23-8328-2d3b10637ae3" name="Changes" comment="Python OOP Retake Exam - 22 Aug 2020 283/300">
+      <change afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/baked_food/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/baked_food/baked_food.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/baked_food/bread.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/baked_food/cake.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/bakery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/drink/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/drink/drink.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/drink/tea.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/drink/water.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/table/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/table/inside_table.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/table/outside_table.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/table/table.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/softUniPythonOOP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/softUniPythonOOP.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 10 December 2022/christmas_pastry_shop/project/christmas_pastry_shop_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 10 December 2022/christmas_pastry_shop/project/christmas_pastry_shop_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 Aug 2020/hotel_everland/project.zip" beforeDir="false" afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 Aug 2020/hotel_everland/project.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 Aug 2020/hotel_everland/project/everland.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 Aug 2020/hotel_everland/project/everland.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 Aug 2020/hotel_everland/project/rooms/room.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 Aug 2020/hotel_everland/project/rooms/room.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 Aug 2020/hotel_everland/project/rooms/young_couple_with_children.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 Aug 2020/hotel_everland/project/rooms/young_couple_with_children.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 Aug 2020/unit_testing/project/test.zip" beforeDir="false" afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 Aug 2020/unit_testing/project/test.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 Aug 2020/unit_testing/project/test/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 Aug 2020/unit_testing/project/test/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,24 +68,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "full.screen.before.presentation.mode": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\hp\PycharmProjects\softUniPythonOOP\exam_preparation" />
@@ -89,89 +96,96 @@
       <recent name="C:\Users\hp\PycharmProjects\softUniPythonOOP\exam_preparation\Python OOP Exam - 10 December 2022\unit_testing" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test.TestLibrary.test_rent_book_valid">
-    <configuration name="Python tests for test.TestLibrary.test_add_reader_existing" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test.TestStudentReportCard.test_school_year_valid">
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="softUniPythonOOP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 10 April 2022/medieval_games/project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 10 April 2022/medieval_games/project/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test.TestStudentReportCard.test_invalid_student_name_raises_value_error" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="softUniPythonOOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 23 August 2021/unit_test/project/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 Aug 2020/unit_testing/project/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.TestLibrary.test_add_reader_existing&quot;" />
+      <option name="_new_target" value="&quot;test.TestStudentReportCard.test_invalid_student_name_raises_value_error&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test.TestLibrary.test_rent_book_missing_author" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test.TestStudentReportCard.test_school_year_over_valid_range_raises_error" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="softUniPythonOOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 23 August 2021/unit_test/project/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 Aug 2020/unit_testing/project/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.TestLibrary.test_rent_book_missing_author&quot;" />
+      <option name="_new_target" value="&quot;test.TestStudentReportCard.test_school_year_over_valid_range_raises_error&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test.TestLibrary.test_rent_book_missing_reader" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test.TestStudentReportCard.test_school_year_under_valid_range_raises_error" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="softUniPythonOOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 23 August 2021/unit_test/project/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 Aug 2020/unit_testing/project/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.TestLibrary.test_rent_book_missing_reader&quot;" />
+      <option name="_new_target" value="&quot;test.TestStudentReportCard.test_school_year_under_valid_range_raises_error&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test.TestLibrary.test_rent_book_missing_title" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test.TestStudentReportCard.test_school_year_valid" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="softUniPythonOOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 23 August 2021/unit_test/project/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 Aug 2020/unit_testing/project/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.TestLibrary.test_rent_book_missing_title&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test.TestLibrary.test_rent_book_valid" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="softUniPythonOOP" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 23 August 2021/unit_test/project/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.TestLibrary.test_rent_book_valid&quot;" />
+      <option name="_new_target" value="&quot;test.TestStudentReportCard.test_school_year_valid&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test.TestLibrary.test_rent_book_valid" />
-        <item itemvalue="Python tests.Python tests for test.TestLibrary.test_rent_book_missing_title" />
-        <item itemvalue="Python tests.Python tests for test.TestLibrary.test_rent_book_missing_author" />
-        <item itemvalue="Python tests.Python tests for test.TestLibrary.test_rent_book_missing_reader" />
-        <item itemvalue="Python tests.Python tests for test.TestLibrary.test_add_reader_existing" />
+        <item itemvalue="Python tests.Python tests for test.TestStudentReportCard.test_school_year_valid" />
+        <item itemvalue="Python tests.Python tests for test.TestStudentReportCard.test_school_year_under_valid_range_raises_error" />
+        <item itemvalue="Python tests.Python tests for test.TestStudentReportCard.test_school_year_over_valid_range_raises_error" />
+        <item itemvalue="Python tests.Python tests for test.TestStudentReportCard.test_invalid_student_name_raises_value_error" />
+        <item itemvalue="Python.test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -247,21 +261,8 @@
       <workItem from="1680699479095" duration="126000" />
       <workItem from="1680700367611" duration="165000" />
       <workItem from="1680701828500" duration="903000" />
-      <workItem from="1680762343691" duration="10393000" />
-    </task>
-    <task id="LOCAL-00020" summary="Lab: Inheritance - 4/6">
-      <created>1677746025869</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1677746025869</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Lab: Inheritance - Completed">
-      <created>1677750153014</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1677750153014</updated>
+      <workItem from="1680762343691" duration="20216000" />
+      <workItem from="1680845725255" duration="15263000" />
     </task>
     <task id="LOCAL-00022" summary="Exercises: Inheritance - Completed">
       <created>1678021489047</created>
@@ -592,7 +593,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680695359050</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="Python OOP Retake Exam - 23 August 2021 - Completed">
+      <created>1680772767917</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1680772767917</updated>
+    </task>
+    <task id="LOCAL-00070" summary="Python OOP Retake Exam - 22 Aug 2020 283/300">
+      <created>1680786548376</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1680786548376</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -611,8 +626,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Iterators and Generators Lab - Completed" />
-    <MESSAGE value="Python OOP Exam - Concert Tracker App 142/150" />
     <MESSAGE value="Exercise: Iterators and Generators - Completed" />
     <MESSAGE value="Decorators - Completed" />
     <MESSAGE value="exam preparation" />
@@ -636,7 +649,9 @@
     <MESSAGE value="Python OOP Exam - 11 December 2021 194/300" />
     <MESSAGE value="Python OOP Exam - 11 December 2021 - Completed" />
     <MESSAGE value="Little tweak for Python OOP Exam - 10 April 2022 solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Little tweak for Python OOP Exam - 10 April 2022 solution" />
+    <MESSAGE value="Python OOP Retake Exam - 23 August 2021 - Completed" />
+    <MESSAGE value="Python OOP Retake Exam - 22 Aug 2020 283/300" />
+    <option name="LAST_COMMIT_MESSAGE" value="Python OOP Retake Exam - 22 Aug 2020 283/300" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -683,7 +698,7 @@
     <SUITE FILE_PATH="coverage/softUniPythonOOP$movie_app.coverage" NAME="movie_app Coverage Results" MODIFIED="1680253863485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 18 April 2022/movie_app/project" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$even_parameters.coverage" NAME="even_parameters Coverage Results" MODIFIED="1679646588871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230323_Exercise_Decorators" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$cache.coverage" NAME="cache Coverage Results" MODIFIED="1679648526112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230323_Exercise_Decorators" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1680614799002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 11 December 2021/christmas_races/project" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1680853251219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 10 April 2022/medieval_games/project" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$sequence_repeat.coverage" NAME="sequence_repeat Coverage Results" MODIFIED="1679388172935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230320_Exercise_Iterators_And_Generators" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$fibonacci_generator.coverage" NAME="fibonacci_generator Coverage Results" MODIFIED="1679396088124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230320_Exercise_Iterators_And_Generators" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$workers.coverage" NAME="workers Coverage Results" MODIFIED="1679052046461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230316_Exercise_SOLID" />
@@ -698,13 +713,13 @@
     <SUITE FILE_PATH="coverage/softUniPythonOOP$squares.coverage" NAME="squares Coverage Results" MODIFIED="1679149221821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230317_Iterators_And_Generators" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$custom_range.coverage" NAME="custom_range Coverage Results" MODIFIED="1679146301630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230317_Iterators_And_Generators" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$bold_italic_underline.coverage" NAME="bold_italic_underline Coverage Results" MODIFIED="1679646768828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230323_Exercise_Decorators" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$test.coverage" NAME="test Coverage Results" MODIFIED="1680694877581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 10 April 2022/medieval_games/project" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$test.coverage" NAME="test Coverage Results" MODIFIED="1680846936996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 Aug 2020/hotel_everland/project" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$reverse_string.coverage" NAME="reverse_string Coverage Results" MODIFIED="1679149560767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230317_Iterators_And_Generators" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$controller.coverage" NAME="controller Coverage Results" MODIFIED="1680524080207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 10 April 2022/medieval_games/project" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$countdown_iterator.coverage" NAME="countdown_iterator Coverage Results" MODIFIED="1679385805420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230320_Exercise_Iterators_And_Generators" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$html_tags.coverage" NAME="html_tags Coverage Results" MODIFIED="1679648681609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230323_Exercise_Decorators" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$workers_updated.coverage" NAME="workers_updated Coverage Results" MODIFIED="1679053031763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230316_Exercise_SOLID" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$.coverage" NAME=" Coverage Results" MODIFIED="1680771084236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 23 August 2021/unit_test/project/test" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$.coverage" NAME=" Coverage Results" MODIFIED="1680860399244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 Aug 2020/unit_testing/project/test" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$prime_numbers.coverage" NAME="prime_numbers Coverage Results" MODIFIED="1679404356067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230320_Exercise_Iterators_And_Generators" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$animal.coverage" NAME="animal Coverage Results" MODIFIED="1679040476504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230314_SOLID/02_OCP" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$take_skip.coverage" NAME="take_skip Coverage Results" MODIFIED="1679381878622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230320_Exercise_Iterators_And_Generators" />
@@ -713,6 +728,7 @@
     <SUITE FILE_PATH="coverage/softUniPythonOOP$multiply.coverage" NAME="multiply Coverage Results" MODIFIED="1679467423951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230321_Decorators" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$shapes.coverage" NAME="shapes Coverage Results" MODIFIED="1679053681815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230316_Exercise_SOLID" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$number_increment.coverage" NAME="number_increment Coverage Results" MODIFIED="1679467054803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230321_Decorators" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$everland.coverage" NAME="everland Coverage Results" MODIFIED="1680785772921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 Aug 2020/hotel_everland/project" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$car_manager.coverage" NAME="car_manager Coverage Results" MODIFIED="1679832942806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230324_Unit_Testing" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$truck_driver.coverage" NAME="truck_driver Coverage Results" MODIFIED="1679844223008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 19 December 2022/unit_testing/project" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$take_halves.coverage" NAME="take_halves Coverage Results" MODIFIED="1679390700359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230320_Exercise_Iterators_And_Generators" />

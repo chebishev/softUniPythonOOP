@@ -35,7 +35,8 @@ class Everland:
                 for index in range(len(room.children)):
                     child = room.children[index]
                     result.append(f"--- Child {index + 1} monthly cost: {child.get_monthly_expense()}$")
-            appliances_cost = sum([a.cost for a in room.appliances]) * 30
-            result.append(f"--- Appliances monthly cost: {appliances_cost:.2f}$")
+            if room.appliances:
+                appliances_cost = sum([a.cost for a in room.appliances]) * 30
+                result.append(f"--- Appliances monthly cost: {appliances_cost:.2f}$")
 
         return "\n".join(result)
