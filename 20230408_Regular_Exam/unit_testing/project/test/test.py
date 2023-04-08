@@ -39,8 +39,8 @@ class TestTennisPlayer(TestCase):
                          "Jim is a top seeded player and he/she is better than John")
 
     def test__lt__other_wins(self):
-        other_player = TennisPlayer("Jockovich", 26, 50.8)
-        self.assertEqual(self.player.__lt__(other_player), "John is a better player than Jim")
+        player1 = TennisPlayer("Jim", 18, 99)
+        self.assertEqual(self.player.__lt__(player1), "John is a better player than Jim")
 
     def test__str__(self):
         self.player.add_new_win("Tennis World Cup")
