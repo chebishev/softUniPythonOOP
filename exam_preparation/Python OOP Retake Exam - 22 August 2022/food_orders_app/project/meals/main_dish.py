@@ -1,4 +1,4 @@
-from horse_racings.project import Meal
+from project.meals.meal import Meal
 
 
 class MainDish(Meal):

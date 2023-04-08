@@ -4,22 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ff3f776-c98b-4b23-8328-2d3b10637ae3" name="Changes" comment="Python OOP Retake Exam - 22 Aug 2020 - Completed">
-      <change afterPath="$PROJECT_DIR$/20230408_Regular_Exam/main_problem/project/robots/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20230408_Regular_Exam/main_problem/project/robots/base_robot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20230408_Regular_Exam/main_problem/project/robots/female_robot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20230408_Regular_Exam/main_problem/project/robots/male_robot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20230408_Regular_Exam/main_problem/project/robots_managing_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20230408_Regular_Exam/main_problem/project/services/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20230408_Regular_Exam/main_problem/project/services/base_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20230408_Regular_Exam/main_problem/project/services/main_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20230408_Regular_Exam/main_problem/project/services/secondary_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20230408_Regular_Exam/main_problem/project/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20230408_Regular_Exam/unit_testing/project/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20230408_Regular_Exam/unit_testing/project/tennis_player.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20230408_Regular_Exam/unit_testing/project/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20230408_Regular_Exam/unit_testing/project/test/test.py" afterDir="false" />
+    <list default="true" id="6ff3f776-c98b-4b23-8328-2d3b10637ae3" name="Changes" comment="Python OOP Retake Exam - 22 Aug 2020 283/300">
+      <change beforePath="$PROJECT_DIR$/.idea/softUniPythonOOP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/softUniPythonOOP.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20230408_Regular_Exam/main_problem/project/services/secondary_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/20230408_Regular_Exam/main_problem/project/services/secondary_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 August 2022/food_orders_app/project/food_orders_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 August 2022/food_orders_app/project/food_orders_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 August 2022/food_orders_app/project/meals/dessert.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 August 2022/food_orders_app/project/meals/dessert.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 August 2022/food_orders_app/project/meals/main_dish.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 August 2022/food_orders_app/project/meals/main_dish.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 August 2022/food_orders_app/project/meals/starter.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 August 2022/food_orders_app/project/meals/starter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 August 2022/food_orders_app/project/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 August 2022/food_orders_app/project/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +68,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -88,8 +81,8 @@
       <recent name="C:\Users\hp\PycharmProjects\softUniPythonOOP\exam_preparation\Python OOP Exam - 10 December 2022\unit_testing" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test.TestTennisPlayer.test__lt__other_wins">
-    <configuration name="teest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test.TestStudentReportCard.test_school_year_valid">
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="softUniPythonOOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -97,12 +90,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20230408_Regular_Exam/unit_testing/project/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 10 April 2022/medieval_games/project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20230408_Regular_Exam/unit_testing/project/test/teest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 10 April 2022/medieval_games/project/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -111,73 +104,73 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test.TestTennisPlayer.test__lt__other_wins" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test.TestStudentReportCard.test_invalid_student_name_raises_value_error" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="softUniPythonOOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20230408_Regular_Exam/unit_testing/project/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 Aug 2020/unit_testing/project/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.TestTennisPlayer.test__lt__other_wins&quot;" />
+      <option name="_new_target" value="&quot;test.TestStudentReportCard.test_invalid_student_name_raises_value_error&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test.TestTennisPlayer.test__lt__valid" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test.TestStudentReportCard.test_school_year_over_valid_range_raises_error" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="softUniPythonOOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20230408_Regular_Exam/unit_testing/project/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 Aug 2020/unit_testing/project/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.TestTennisPlayer.test__lt__valid&quot;" />
+      <option name="_new_target" value="&quot;test.TestStudentReportCard.test_school_year_over_valid_range_raises_error&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test.TestTennisPlayer.test__str__" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test.TestStudentReportCard.test_school_year_under_valid_range_raises_error" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="softUniPythonOOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20230408_Regular_Exam/unit_testing/project/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 Aug 2020/unit_testing/project/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.TestTennisPlayer.test__str__&quot;" />
+      <option name="_new_target" value="&quot;test.TestStudentReportCard.test_school_year_under_valid_range_raises_error&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test.TestTennisPlayer.test_add_new_win_valid" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test.TestStudentReportCard.test_school_year_valid" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="softUniPythonOOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20230408_Regular_Exam/unit_testing/project/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 Aug 2020/unit_testing/project/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.TestTennisPlayer.test_add_new_win_valid&quot;" />
+      <option name="_new_target" value="&quot;test.TestStudentReportCard.test_school_year_valid&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test.TestTennisPlayer.test__lt__other_wins" />
-        <item itemvalue="Python.teest" />
-        <item itemvalue="Python tests.Python tests for test.TestTennisPlayer.test__str__" />
-        <item itemvalue="Python tests.Python tests for test.TestTennisPlayer.test__lt__valid" />
-        <item itemvalue="Python tests.Python tests for test.TestTennisPlayer.test_add_new_win_valid" />
+        <item itemvalue="Python tests.Python tests for test.TestStudentReportCard.test_school_year_valid" />
+        <item itemvalue="Python tests.Python tests for test.TestStudentReportCard.test_school_year_under_valid_range_raises_error" />
+        <item itemvalue="Python tests.Python tests for test.TestStudentReportCard.test_school_year_over_valid_range_raises_error" />
+        <item itemvalue="Python tests.Python tests for test.TestStudentReportCard.test_invalid_student_name_raises_value_error" />
+        <item itemvalue="Python.test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -254,12 +247,14 @@
       <workItem from="1680700367611" duration="165000" />
       <workItem from="1680701828500" duration="903000" />
       <workItem from="1680762343691" duration="20216000" />
-      <workItem from="1680845725255" duration="19283000" />
-      <workItem from="1680869349183" duration="608000" />
-      <workItem from="1680870858470" duration="858000" />
-      <workItem from="1680872605825" duration="506000" />
-      <workItem from="1680948005183" duration="10510000" />
-      <workItem from="1680962021689" duration="2789000" />
+      <workItem from="1680845725255" duration="15263000" />
+    </task>
+    <task id="LOCAL-00022" summary="Exercises: Inheritance - Completed">
+      <created>1678021489047</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1678021489047</updated>
     </task>
     <task id="LOCAL-00023" summary="Lab: Encapsulation - Completed">
       <created>1678090202319</created>
@@ -597,14 +592,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680786548376</updated>
     </task>
-    <task id="LOCAL-00071" summary="Python OOP Retake Exam - 22 Aug 2020 - Completed">
-      <created>1680861434196</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1680861434197</updated>
-    </task>
-    <option name="localTasksCounter" value="72" />
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -623,6 +611,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Exercise: Iterators and Generators - Completed" />
     <MESSAGE value="Decorators - Completed" />
     <MESSAGE value="exam preparation" />
     <MESSAGE value="Exercise: Decorators 8/9" />
@@ -647,8 +636,7 @@
     <MESSAGE value="Little tweak for Python OOP Exam - 10 April 2022 solution" />
     <MESSAGE value="Python OOP Retake Exam - 23 August 2021 - Completed" />
     <MESSAGE value="Python OOP Retake Exam - 22 Aug 2020 283/300" />
-    <MESSAGE value="Python OOP Retake Exam - 22 Aug 2020 - Completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Python OOP Retake Exam - 22 Aug 2020 - Completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Python OOP Retake Exam - 22 Aug 2020 283/300" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -663,11 +651,6 @@
           <line>48</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 19 December 2022/unit_testing/project/truck_driver.py</url>
-          <line>55</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -679,66 +662,63 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$dictionary_iterator.coverage" NAME="dictionary_iterator Coverage Results" MODIFIED="1679385627698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230320_Exercise_Iterators_And_Generators" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$type_check.coverage" NAME="type_check Coverage Results" MODIFIED="1679647844239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230323_Exercise_Decorators" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$prisoner.coverage" NAME="prisoner Coverage Results" MODIFIED="1679053444413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230316_Exercise_SOLID" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$generator_range.coverage" NAME="generator_range Coverage Results" MODIFIED="1679149397748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230317_Iterators_And_Generators" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$possible_permutations.coverage" NAME="possible_permutations Coverage Results" MODIFIED="1679466338907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230320_Exercise_Iterators_And_Generators" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$test_shopping.coverage" NAME="test_shopping Coverage Results" MODIFIED="1680007844278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 August 2022/unit_testing/project/test" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$red_bull_team.coverage" NAME="red_bull_team Coverage Results" MODIFIED="1678953349850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230313_Exercise_Polymorphism_nd_Abstraction/formula_1_manager/project/formula_teams" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$muscle_car.coverage" NAME="muscle_car Coverage Results" MODIFIED="1680597937718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 11 December 2021/christmas_races/project/car" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$player.coverage" NAME="player Coverage Results" MODIFIED="1680519158986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 10 April 2022/medieval_games/project" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1678955690129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230313_Exercise_Polymorphism_nd_Abstraction/formula_1_manager/project" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$shopping_cart.coverage" NAME="shopping_cart Coverage Results" MODIFIED="1680008226797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 August 2022/unit_testing/project" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$vowel_filter.coverage" NAME="vowel_filter Coverage Results" MODIFIED="1679467180045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230321_Decorators" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$user.coverage" NAME="user Coverage Results" MODIFIED="1680247857992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 18 April 2022/movie_app/project" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$books.coverage" NAME="books Coverage Results" MODIFIED="1678958318892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230314_SOLID/01_SRP" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$driver.coverage" NAME="driver Coverage Results" MODIFIED="1680598105426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 11 December 2021/christmas_races/project" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$young_couple_with_children.coverage" NAME="young_couple_with_children Coverage Results" MODIFIED="1680431978068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 Aug 2020/hotel_everland/project/rooms" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$reverse_iter.coverage" NAME="reverse_iter Coverage Results" MODIFIED="1679146786581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230317_Iterators_And_Generators" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$horse_race_app.coverage" NAME="horse_race_app Coverage Results" MODIFIED="1680173583575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 14 August 2022/horse_racings/project" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$movie_app.coverage" NAME="movie_app Coverage Results" MODIFIED="1680253863485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 18 April 2022/movie_app/project" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$even_parameters.coverage" NAME="even_parameters Coverage Results" MODIFIED="1679646588871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230323_Exercise_Decorators" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$cache.coverage" NAME="cache Coverage Results" MODIFIED="1679648526112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230323_Exercise_Decorators" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1680853251219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 10 April 2022/medieval_games/project" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$sequence_repeat.coverage" NAME="sequence_repeat Coverage Results" MODIFIED="1679388172935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230320_Exercise_Iterators_And_Generators" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$fibonacci_generator.coverage" NAME="fibonacci_generator Coverage Results" MODIFIED="1679396088124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230320_Exercise_Iterators_And_Generators" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$workers.coverage" NAME="workers Coverage Results" MODIFIED="1679052046461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230316_Exercise_SOLID" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$reader.coverage" NAME="reader Coverage Results" MODIFIED="1679401354831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230320_Exercise_Iterators_And_Generators" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$test_worker.coverage" NAME="test_worker Coverage Results" MODIFIED="1679826600091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230324_Unit_Testing" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$secondary_service.coverage" NAME="secondary_service Coverage Results" MODIFIED="1680952894159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230408_Regular_Exam/main_problem/project/services" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$teest.coverage" NAME="teest Coverage Results" MODIFIED="1680957380710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230408_Regular_Exam/unit_testing/project/test" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$vowels.coverage" NAME="vowels Coverage Results" MODIFIED="1679146929514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230317_Iterators_And_Generators" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$logged.coverage" NAME="logged Coverage Results" MODIFIED="1679642698834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230323_Exercise_Decorators" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$store_results.coverage" NAME="store_results Coverage Results" MODIFIED="1679648918421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230323_Exercise_Decorators" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$food_orders_app.coverage" NAME="food_orders_app Coverage Results" MODIFIED="1679907704348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 August 2022/food_orders_app/project" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$even_numbers.coverage" NAME="even_numbers Coverage Results" MODIFIED="1679467260280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230321_Decorators" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$space_station.coverage" NAME="space_station Coverage Results" MODIFIED="1680768933243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 23 August 2021/space_station/project" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$squares.coverage" NAME="squares Coverage Results" MODIFIED="1679149221821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230317_Iterators_And_Generators" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$custom_range.coverage" NAME="custom_range Coverage Results" MODIFIED="1679146301630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230317_Iterators_And_Generators" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$bold_italic_underline.coverage" NAME="bold_italic_underline Coverage Results" MODIFIED="1679646768828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230323_Exercise_Decorators" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$test.coverage" NAME="test Coverage Results" MODIFIED="1680955364409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230408_Regular_Exam/main_problem/project" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$reverse_string.coverage" NAME="reverse_string Coverage Results" MODIFIED="1679149560767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230317_Iterators_And_Generators" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$controller.coverage" NAME="controller Coverage Results" MODIFIED="1680524080207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 10 April 2022/medieval_games/project" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$countdown_iterator.coverage" NAME="countdown_iterator Coverage Results" MODIFIED="1679385805420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230320_Exercise_Iterators_And_Generators" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$html_tags.coverage" NAME="html_tags Coverage Results" MODIFIED="1679648681609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230323_Exercise_Decorators" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$workers_updated.coverage" NAME="workers_updated Coverage Results" MODIFIED="1679053031763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230316_Exercise_SOLID" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$.coverage" NAME=" Coverage Results" MODIFIED="1680965580485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230408_Regular_Exam/unit_testing/project/test" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$prime_numbers.coverage" NAME="prime_numbers Coverage Results" MODIFIED="1679404356067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230320_Exercise_Iterators_And_Generators" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$animal.coverage" NAME="animal Coverage Results" MODIFIED="1679040476504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230314_SOLID/02_OCP" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$take_skip.coverage" NAME="take_skip Coverage Results" MODIFIED="1679381878622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230320_Exercise_Iterators_And_Generators" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$movie_app.coverage" NAME="movie_app Coverage Results" MODIFIED="1680253863485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 18 April 2022/movie_app/project" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$open_booth.coverage" NAME="open_booth Coverage Results" MODIFIED="1679483635077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 10 December 2022/christmas_pastry_shop/project/booths" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$thoroughbred.coverage" NAME="thoroughbred Coverage Results" MODIFIED="1680170726270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 14 August 2022/horse_racings/project/horse_specification" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$multiply.coverage" NAME="multiply Coverage Results" MODIFIED="1679467423951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230321_Decorators" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$shapes.coverage" NAME="shapes Coverage Results" MODIFIED="1679053681815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230316_Exercise_SOLID" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$number_increment.coverage" NAME="number_increment Coverage Results" MODIFIED="1679467054803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230321_Decorators" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$horse_race_app.coverage" NAME="horse_race_app Coverage Results" MODIFIED="1680173583575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 14 August 2022/horse_racings/project" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$shopping_cart.coverage" NAME="shopping_cart Coverage Results" MODIFIED="1680008226797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 August 2022/unit_testing/project" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$countdown_iterator.coverage" NAME="countdown_iterator Coverage Results" MODIFIED="1679385805420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230320_Exercise_Iterators_And_Generators" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1678955690129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230313_Exercise_Polymorphism_nd_Abstraction/formula_1_manager/project" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$everland.coverage" NAME="everland Coverage Results" MODIFIED="1680785772921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 Aug 2020/hotel_everland/project" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$car_manager.coverage" NAME="car_manager Coverage Results" MODIFIED="1679832942806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230324_Unit_Testing" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$truck_driver.coverage" NAME="truck_driver Coverage Results" MODIFIED="1679844223008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 19 December 2022/unit_testing/project" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$take_halves.coverage" NAME="take_halves Coverage Results" MODIFIED="1679390700359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230320_Exercise_Iterators_And_Generators" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$controller.coverage" NAME="controller Coverage Results" MODIFIED="1680524080207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 10 April 2022/medieval_games/project" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$muscle_car.coverage" NAME="muscle_car Coverage Results" MODIFIED="1680597937718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 11 December 2021/christmas_races/project/car" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$cache.coverage" NAME="cache Coverage Results" MODIFIED="1679648526112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230323_Exercise_Decorators" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$prisoner.coverage" NAME="prisoner Coverage Results" MODIFIED="1679053444413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230316_Exercise_SOLID" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$even_parameters.coverage" NAME="even_parameters Coverage Results" MODIFIED="1679646588871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230323_Exercise_Decorators" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$prime_numbers.coverage" NAME="prime_numbers Coverage Results" MODIFIED="1679404356067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230320_Exercise_Iterators_And_Generators" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$squares.coverage" NAME="squares Coverage Results" MODIFIED="1679149221821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230317_Iterators_And_Generators" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$number_increment.coverage" NAME="number_increment Coverage Results" MODIFIED="1679467054803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230321_Decorators" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$execution_time.coverage" NAME="execution_time Coverage Results" MODIFIED="1679649127937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230323_Exercise_Decorators" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$main_service.coverage" NAME="main_service Coverage Results" MODIFIED="1680952786671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230408_Regular_Exam/main_problem/project/services" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$test.coverage" NAME="test Coverage Results" MODIFIED="1680460114950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 18 April 2022/movie_app/project" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$animal.coverage" NAME="animal Coverage Results" MODIFIED="1679040476504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230314_SOLID/02_OCP" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$driver.coverage" NAME="driver Coverage Results" MODIFIED="1680598105426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 11 December 2021/christmas_races/project" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$multiply.coverage" NAME="multiply Coverage Results" MODIFIED="1679467423951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230321_Decorators" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$player.coverage" NAME="player Coverage Results" MODIFIED="1680519158986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 10 April 2022/medieval_games/project" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$books.coverage" NAME="books Coverage Results" MODIFIED="1678958318892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230314_SOLID/01_SRP" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$fibonacci_generator.coverage" NAME="fibonacci_generator Coverage Results" MODIFIED="1679396088124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230320_Exercise_Iterators_And_Generators" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$food_orders_app.coverage" NAME="food_orders_app Coverage Results" MODIFIED="1679907704348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 August 2022/food_orders_app/project" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$take_halves.coverage" NAME="take_halves Coverage Results" MODIFIED="1679390700359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230320_Exercise_Iterators_And_Generators" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$test_shopping.coverage" NAME="test_shopping Coverage Results" MODIFIED="1680007844278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 August 2022/unit_testing/project/test" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$generator_range.coverage" NAME="generator_range Coverage Results" MODIFIED="1679149397748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230317_Iterators_And_Generators" />
+    <SUITE FILE_PATH="coverage/guitarist_py$test.coverage" NAME="test Coverage Results" MODIFIED="1680891134838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 August 2022/food_orders_app/project" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$vowel_filter.coverage" NAME="vowel_filter Coverage Results" MODIFIED="1679467180045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230321_Decorators" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$custom_range.coverage" NAME="custom_range Coverage Results" MODIFIED="1679146301630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230317_Iterators_And_Generators" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$workers_updated.coverage" NAME="workers_updated Coverage Results" MODIFIED="1679053031763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230316_Exercise_SOLID" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$dictionary_iterator.coverage" NAME="dictionary_iterator Coverage Results" MODIFIED="1679385627698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230320_Exercise_Iterators_And_Generators" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$reverse_string.coverage" NAME="reverse_string Coverage Results" MODIFIED="1679149560767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230317_Iterators_And_Generators" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$reverse_iter.coverage" NAME="reverse_iter Coverage Results" MODIFIED="1679146786581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230317_Iterators_And_Generators" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$car_manager.coverage" NAME="car_manager Coverage Results" MODIFIED="1679832942806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230324_Unit_Testing" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$possible_permutations.coverage" NAME="possible_permutations Coverage Results" MODIFIED="1679466338907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230320_Exercise_Iterators_And_Generators" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$thoroughbred.coverage" NAME="thoroughbred Coverage Results" MODIFIED="1680170726270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 14 August 2022/horse_racings/project/horse_specification" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$take_skip.coverage" NAME="take_skip Coverage Results" MODIFIED="1679381878622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230320_Exercise_Iterators_And_Generators" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$vowels.coverage" NAME="vowels Coverage Results" MODIFIED="1679146929514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230317_Iterators_And_Generators" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$store_results.coverage" NAME="store_results Coverage Results" MODIFIED="1679648918421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230323_Exercise_Decorators" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$logged.coverage" NAME="logged Coverage Results" MODIFIED="1679642698834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230323_Exercise_Decorators" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$emails.coverage" NAME="emails Coverage Results" MODIFIED="1679145444258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230316_Exercise_SOLID" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$robots_managing_app.coverage" NAME="robots_managing_app Coverage Results" MODIFIED="1680955360232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230408_Regular_Exam/main_problem/project" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$shapes.coverage" NAME="shapes Coverage Results" MODIFIED="1679053681815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230316_Exercise_SOLID" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$sequence_repeat.coverage" NAME="sequence_repeat Coverage Results" MODIFIED="1679388172935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230320_Exercise_Iterators_And_Generators" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$reader.coverage" NAME="reader Coverage Results" MODIFIED="1679401354831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230320_Exercise_Iterators_And_Generators" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$.coverage" NAME=" Coverage Results" MODIFIED="1680455901706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 Aug 2020/unit_testing/project/test" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$user.coverage" NAME="user Coverage Results" MODIFIED="1680247857992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 18 April 2022/movie_app/project" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$type_check.coverage" NAME="type_check Coverage Results" MODIFIED="1679647844239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230323_Exercise_Decorators" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$young_couple_with_children.coverage" NAME="young_couple_with_children Coverage Results" MODIFIED="1680431978068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 Aug 2020/hotel_everland/project/rooms" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$red_bull_team.coverage" NAME="red_bull_team Coverage Results" MODIFIED="1678953349850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230313_Exercise_Polymorphism_nd_Abstraction/formula_1_manager/project/formula_teams" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$space_station.coverage" NAME="space_station Coverage Results" MODIFIED="1680768933243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 23 August 2021/space_station/project" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$workers.coverage" NAME="workers Coverage Results" MODIFIED="1679052046461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230316_Exercise_SOLID" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$even_numbers.coverage" NAME="even_numbers Coverage Results" MODIFIED="1679467260280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230321_Decorators" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$truck_driver.coverage" NAME="truck_driver Coverage Results" MODIFIED="1679844223008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 19 December 2022/unit_testing/project" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1678973447875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230313_Exercise_Polymorphism_nd_Abstraction/animals/project" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$test_worker.coverage" NAME="test_worker Coverage Results" MODIFIED="1679826600091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230324_Unit_Testing" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$bold_italic_underline.coverage" NAME="bold_italic_underline Coverage Results" MODIFIED="1679646768828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230323_Exercise_Decorators" />
   </component>
 </project>

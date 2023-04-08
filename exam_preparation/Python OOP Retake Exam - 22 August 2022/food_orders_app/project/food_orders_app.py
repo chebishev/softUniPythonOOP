@@ -1,5 +1,5 @@
 from project.client import Client
-from project.meals_dessert import Dessert
+from project.meals.dessert import Dessert
 from project.meals.main_dish import MainDish
 from project.meals.starter import Starter
 
