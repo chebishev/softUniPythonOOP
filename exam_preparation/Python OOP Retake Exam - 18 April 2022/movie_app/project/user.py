@@ -29,6 +29,7 @@ class User:
 
     def __str__(self):
         result = [f"Username: {self.username}, Age: {self.age}", "Liked movies:"]
+
         if self.movies_liked:
             for movie in self.movies_liked:
                 result.append(f"{movie.details()}")
