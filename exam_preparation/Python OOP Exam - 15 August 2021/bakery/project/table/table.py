@@ -63,11 +63,15 @@ class Table(ABC):
 
     def order_drink(self, drink: Drink):
         self.drink_orders.append(drink)
+        return f'- {drink.name} {drink.brand} - {drink.portion:.2f}ml - {drink.price:.2f}lv'
 
     def get_bill(self):
-        # TODO check if the calculations are correct
-        # Which brackets are the right ones for the task?
-        return sum(d.price for d in self.drink_orders) + sum(f.price for f in self.food_orders)
+        total = 0
+        for food in self.food_orders:
+            total += food.price
+        for drink in self.drink_orders:
+            total += drink.price
+        return total
 
     def clear(self):
         self.food_orders.clear()

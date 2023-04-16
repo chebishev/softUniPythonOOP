@@ -4,23 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ff3f776-c98b-4b23-8328-2d3b10637ae3" name="Changes" comment="Python OOP Exam - 14 August 2022 300/300">
-      <change afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/test.py" afterDir="false" />
+    <list default="true" id="6ff3f776-c98b-4b23-8328-2d3b10637ae3" name="Changes" comment="Python OOP Exam - 15 August 2021 193/300">
       <change beforePath="$PROJECT_DIR$/.idea/softUniPythonOOP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/softUniPythonOOP.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/baked_food/baked_food.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/baked_food/baked_food.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/baked_food/bread.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/baked_food/bread.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/baked_food/cake.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/baked_food/cake.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 10 April 2022/medieval_games/project.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/bakery.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/bakery.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/drink/drink.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/drink/drink.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/drink/tea.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/drink/tea.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/drink/water.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/drink/water.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/table/inside_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/table/inside_table.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/table/outside_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/table/outside_table.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/table/table.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/table/table.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 18 April 2022/movie_app/project.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 18 April 2022/unit_testing/project/plantation.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 18 April 2022/unit_testing/project/plantation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/test.py" afterDir="false" />
     </list>
     <list id="7befc73d-6280-4986-bce5-191c5f0cc0f6" name="Changes by desisl" comment="">
       <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/bakery.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/bakery.py" afterDir="false" />
@@ -56,21 +47,15 @@
   <component name="LineStatusTrackerManager">
     <file path="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/bakery.py">
       <ranges>
-        <range start1="4" end1="4" start2="4" end2="6" changelist="6ff3f776-c98b-4b23-8328-2d3b10637ae3" />
-        <range start1="7" end1="14" start2="9" end2="16" changelist="6ff3f776-c98b-4b23-8328-2d3b10637ae3" />
-        <range start1="16" end1="16" start2="18" end2="23" changelist="6ff3f776-c98b-4b23-8328-2d3b10637ae3" />
-        <range start1="22" end1="22" start2="29" end2="39" changelist="7befc73d-6280-4986-bce5-191c5f0cc0f6" />
-        <range start1="23" end1="33" start2="40" end2="40" changelist="6ff3f776-c98b-4b23-8328-2d3b10637ae3" />
-        <range start1="34" end1="41" start2="41" end2="44" changelist="6ff3f776-c98b-4b23-8328-2d3b10637ae3" />
-        <range start1="42" end1="42" start2="45" end2="47" changelist="6ff3f776-c98b-4b23-8328-2d3b10637ae3" />
-        <range start1="44" end1="52" start2="49" end2="56" changelist="6ff3f776-c98b-4b23-8328-2d3b10637ae3" />
-        <range start1="54" end1="55" start2="58" end2="65" changelist="6ff3f776-c98b-4b23-8328-2d3b10637ae3" />
-        <range start1="57" end1="58" start2="67" end2="74" changelist="6ff3f776-c98b-4b23-8328-2d3b10637ae3" />
-        <range start1="60" end1="61" start2="76" end2="95" changelist="6ff3f776-c98b-4b23-8328-2d3b10637ae3" />
-        <range start1="63" end1="64" start2="97" end2="117" changelist="6ff3f776-c98b-4b23-8328-2d3b10637ae3" />
-        <range start1="66" end1="67" start2="119" end2="127" changelist="6ff3f776-c98b-4b23-8328-2d3b10637ae3" />
-        <range start1="69" end1="70" start2="129" end2="130" changelist="6ff3f776-c98b-4b23-8328-2d3b10637ae3" />
-        <range start1="72" end1="73" start2="132" end2="133" changelist="6ff3f776-c98b-4b23-8328-2d3b10637ae3" />
+        <range start1="29" end1="29" start2="29" end2="39" changelist="7befc73d-6280-4986-bce5-191c5f0cc0f6" />
+        <range start1="32" end1="33" start2="42" end2="46" changelist="7befc73d-6280-4986-bce5-191c5f0cc0f6" />
+        <range start1="35" end1="37" start2="48" end2="48" changelist="6ff3f776-c98b-4b23-8328-2d3b10637ae3" />
+        <range start1="77" end1="78" start2="88" end2="89" changelist="7befc73d-6280-4986-bce5-191c5f0cc0f6" />
+        <range start1="82" end1="85" start2="93" end2="95" changelist="6ff3f776-c98b-4b23-8328-2d3b10637ae3" />
+        <range start1="88" end1="90" start2="98" end2="101" changelist="6ff3f776-c98b-4b23-8328-2d3b10637ae3" />
+        <range start1="92" end1="93" start2="103" end2="103" changelist="6ff3f776-c98b-4b23-8328-2d3b10637ae3" />
+        <range start1="98" end1="100" start2="108" end2="109" changelist="6ff3f776-c98b-4b23-8328-2d3b10637ae3" />
+        <range start1="104" end1="105" start2="113" end2="114" changelist="6ff3f776-c98b-4b23-8328-2d3b10637ae3" />
       </ranges>
     </file>
   </component>
@@ -114,124 +99,89 @@
       <recent name="C:\Users\hp\PycharmProjects\softUniPythonOOP\exam_preparation\Python OOP Exam - 10 December 2022\unit_testing" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration name="inside_table" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test.TestPetShop.test_feed_pet_enough_qty">
+    <configuration name="Python tests for test.TestPetShop.test_feed_pet_enough_qty" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="softUniPythonOOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/table" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/unit_test/project/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/table/inside_table.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.TestPetShop.test_feed_pet_enough_qty&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="outside_table" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test.TestPetShop.test_feed_pet_missing_food" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="softUniPythonOOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/table" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/unit_test/project/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/table/outside_table.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.TestPetShop.test_feed_pet_missing_food&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="table" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test.TestPetShop.test_not_enough_qty_food" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="softUniPythonOOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/table" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/unit_test/project/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/table/table.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.TestPetShop.test_not_enough_qty_food&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test.TestPetShop.test_repr_" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="softUniPythonOOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/unit_test/project/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.TestPetShop.test_repr_&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="water" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="softUniPythonOOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/drink" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/unit_test/project/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/drink/water.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/unit_test/project/test/test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.inside_table" />
-        <item itemvalue="Python.outside_table" />
-        <item itemvalue="Python.table" />
-        <item itemvalue="Python.water" />
+        <item itemvalue="Python tests.Python tests for test.TestPetShop.test_feed_pet_enough_qty" />
+        <item itemvalue="Python tests.Python tests for test.TestPetShop.test_feed_pet_missing_food" />
+        <item itemvalue="Python tests.Python tests in test.py" />
+        <item itemvalue="Python tests.Python tests for test.TestPetShop.test_repr_" />
+        <item itemvalue="Python tests.Python tests for test.TestPetShop.test_not_enough_qty_food" />
       </list>
     </recent_temporary>
   </component>
@@ -324,14 +274,7 @@
       <workItem from="1681603408175" duration="780000" />
       <workItem from="1681604357726" duration="233000" />
       <workItem from="1681643814141" duration="1504000" />
-      <workItem from="1681648020338" duration="27855000" />
-    </task>
-    <task id="LOCAL-00024" summary="Exercise: EncapsulationExercise: Encapsulation 0/4">
-      <created>1678197781780</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1678197781780</updated>
+      <workItem from="1681648020338" duration="37118000" />
     </task>
     <task id="LOCAL-00025" summary="Exercise: EncapsulationExercise: Encapsulation 0/4">
       <created>1678198223797</created>
@@ -669,7 +612,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681468401248</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="Python OOP Exam - 15 August 2021 193/300">
+      <created>1681677429636</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1681677429638</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -688,7 +638,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Decorators - Completed" />
     <MESSAGE value="exam preparation" />
     <MESSAGE value="Exercise: Decorators 8/9" />
     <MESSAGE value="Lab: Unit Testing - Completed" />
@@ -713,7 +662,8 @@
     <MESSAGE value="Python OOP Retake Exam - 23 August 2021 - Completed" />
     <MESSAGE value="Python OOP Retake Exam - 22 Aug 2020 283/300" />
     <MESSAGE value="Python OOP Exam - 14 August 2022 300/300" />
-    <option name="LAST_COMMIT_MESSAGE" value="Python OOP Exam - 14 August 2022 300/300" />
+    <MESSAGE value="Python OOP Exam - 15 August 2021 193/300" />
+    <option name="LAST_COMMIT_MESSAGE" value="Python OOP Exam - 15 August 2021 193/300" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -727,6 +677,16 @@
           <url>file://$PROJECT_DIR$/exam_preparation/Python OOP Exam - 11 December 2021/christmas_races/project/controller.py</url>
           <line>48</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/table/table.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/table/table.py</url>
+          <line>68</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -758,7 +718,7 @@
     <SUITE FILE_PATH="coverage/softUniPythonOOP$squares.coverage" NAME="squares Coverage Results" MODIFIED="1679149221821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230317_Iterators_And_Generators" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$number_increment.coverage" NAME="number_increment Coverage Results" MODIFIED="1679467054803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230321_Decorators" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$execution_time.coverage" NAME="execution_time Coverage Results" MODIFIED="1679649127937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230323_Exercise_Decorators" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$test.coverage" NAME="test Coverage Results" MODIFIED="1681676329889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$test.coverage" NAME="test Coverage Results" MODIFIED="1681683484403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$animal.coverage" NAME="animal Coverage Results" MODIFIED="1679040476504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230314_SOLID/02_OCP" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$driver.coverage" NAME="driver Coverage Results" MODIFIED="1680598105426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 11 December 2021/christmas_races/project" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$multiply.coverage" NAME="multiply Coverage Results" MODIFIED="1679467423951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230321_Decorators" />
@@ -793,8 +753,8 @@
     <SUITE FILE_PATH="coverage/softUniPythonOOP$test_plantation.coverage" NAME="test_plantation Coverage Results" MODIFIED="1681652652910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Temp/7zO8A6FEBD7" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$sequence_repeat.coverage" NAME="sequence_repeat Coverage Results" MODIFIED="1679388172935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230320_Exercise_Iterators_And_Generators" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$reader.coverage" NAME="reader Coverage Results" MODIFIED="1679401354831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230320_Exercise_Iterators_And_Generators" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$.coverage" NAME=" Coverage Results" MODIFIED="1681655314654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 18 April 2022/unit_testing/project/test" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$outside_table.coverage" NAME="outside_table Coverage Results" MODIFIED="1681664317285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/table" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$.coverage" NAME=" Coverage Results" MODIFIED="1681687017978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/unit_test/project/test" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$user.coverage" NAME="user Coverage Results" MODIFIED="1680247857992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 18 April 2022/movie_app/project" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$type_check.coverage" NAME="type_check Coverage Results" MODIFIED="1679647844239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230323_Exercise_Decorators" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$young_couple_with_children.coverage" NAME="young_couple_with_children Coverage Results" MODIFIED="1680431978068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Retake Exam - 22 Aug 2020/hotel_everland/project/rooms" />

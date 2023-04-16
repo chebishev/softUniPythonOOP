@@ -33,8 +33,6 @@ class Bakery:
         if food_type in ["Bread", "Cake"] and not given_name:
             self.food_menu.append(self.VALID_TYPE_FOOD[food_type](name, price))
             return f"Added {name} ({food_type}) to the food menu"
-        if given_name:
-            raise Exception(f"{given_name[0].__class__.__name__} {name} is already in the menu!")
 
     def add_drink(self, drink_type, name, portion, brand):
         if drink_type in self.VALID_TYPE_DRINK:
@@ -80,29 +78,27 @@ class Bakery:
                     break
             else:
                 result1.append(food)
-
-        return f"{new_line.join(result)}\n" \
-               f"{new_line.join(result1)}"
+        result.extend(result1)
+        return '\n'.join(result)
 
     def order_drink(self, table_number, *drink_name):
         drinks_not_in_menu = []
-        table = [t for t in self.tables_repository if t.table_number == table_number]
-        if not table:
+        try:
+            table = [t for t in self.tables_repository if t.table_number == table_number][0]
+        except IndexError:
             return f"Could not find table {table_number}"
 
-        table = table[0]
         result = [f"Table {table_number} ordered:"]
 
         for d in drink_name:
             for drink in self.drinks_menu:
                 if d == drink.name:
-                    table.order_drink(drink)
-                    result.append(f'- {drink.name} {drink.brand} - {drink.portion:.2f}ml - {drink.price:.2f}lv')
+                    result.append(table.order_drink(drink))
                     break
             else:
                 drinks_not_in_menu.append(d)
 
-        result.append(f"{self.name} does not have in menu:")
+        result.append(f"{self.name} does not have in the menu:")
         result.extend(drinks_not_in_menu)
         return '\n'.join(result)
 
