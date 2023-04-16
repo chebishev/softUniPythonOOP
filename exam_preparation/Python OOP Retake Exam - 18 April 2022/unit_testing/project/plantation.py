@@ -51,3 +51,4 @@ class Plantation:
         result += f'Size: {self.size}\n'
         result += f'Workers: {", ".join(self.workers)}'
         return result
+

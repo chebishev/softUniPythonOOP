@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 
 
 class Drink(ABC):
-    @abstractmethod
+
     def __init__(self, name, portion, price, brand):
         self.name = name
         self.portion = portion
@@ -16,7 +16,7 @@ class Drink(ABC):
     @name.setter
     def name(self, value):
         if not value.strip():
-            raise ValueError("Name cannot be empty string or white space!")
+            raise ValueError('Name cannot be empty string or white space!')
         self.__name = value
 
     @property
@@ -26,7 +26,7 @@ class Drink(ABC):
     @portion.setter
     def portion(self, value):
         if value <= 0:
-            raise ValueError("Portion cannot be less than or equal to zero!")
+            raise ValueError('Portion cannot be less than or equal to zero!')
         self.__portion = value
 
     @property
@@ -36,8 +36,13 @@ class Drink(ABC):
     @brand.setter
     def brand(self, value):
         if not value.strip():
-            raise ValueError("Brand cannot be empty string or white space!")
+            raise ValueError('Brand cannot be empty string or white space!')
         self.__brand = value
 
+    @property
+    @abstractmethod
+    def get_price(self):
+        pass
+
     def __repr__(self):
-        return f" - {self.name} {self.brand} - {self.portion:.2f}ml - {self.price:.2f}lv"
+        return f' - {self.name} {self.brand} - {self.portion:.2f}ml - {self.get_price:.2f}lv'
