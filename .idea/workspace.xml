@@ -4,16 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ff3f776-c98b-4b23-8328-2d3b10637ae3" name="Changes" comment="Python OOP Exam - 15 August 2021 193/300">
+    <list default="true" id="6ff3f776-c98b-4b23-8328-2d3b10637ae3" name="Changes" comment="Python OOP Exam - 15 August 2021 293/300">
+      <change afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/unit_test/project/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/unit_test/project/pet_shop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/unit_test/project/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/unit_test/project/test/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/softUniPythonOOP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/softUniPythonOOP.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 10 April 2022/medieval_games/project.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/bakery.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/bakery.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/table/table.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/table/table.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/test.py" afterDir="false" />
     </list>
-    <list id="7befc73d-6280-4986-bce5-191c5f0cc0f6" name="Changes by desisl" comment="">
+    <list id="7befc73d-6280-4986-bce5-191c5f0cc0f6" name="Changes by desisl" comment="Changes by desisl">
       <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/bakery.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/bakery.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,15 +47,10 @@
   <component name="LineStatusTrackerManager">
     <file path="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/bakery.py">
       <ranges>
-        <range start1="29" end1="29" start2="29" end2="39" changelist="7befc73d-6280-4986-bce5-191c5f0cc0f6" />
+        <range start1="30" end1="30" start2="30" end2="40" changelist="7befc73d-6280-4986-bce5-191c5f0cc0f6" />
         <range start1="32" end1="33" start2="42" end2="46" changelist="7befc73d-6280-4986-bce5-191c5f0cc0f6" />
-        <range start1="35" end1="37" start2="48" end2="48" changelist="6ff3f776-c98b-4b23-8328-2d3b10637ae3" />
-        <range start1="77" end1="78" start2="88" end2="89" changelist="7befc73d-6280-4986-bce5-191c5f0cc0f6" />
-        <range start1="82" end1="85" start2="93" end2="95" changelist="6ff3f776-c98b-4b23-8328-2d3b10637ae3" />
-        <range start1="88" end1="90" start2="98" end2="101" changelist="6ff3f776-c98b-4b23-8328-2d3b10637ae3" />
-        <range start1="92" end1="93" start2="103" end2="103" changelist="6ff3f776-c98b-4b23-8328-2d3b10637ae3" />
-        <range start1="98" end1="100" start2="108" end2="109" changelist="6ff3f776-c98b-4b23-8328-2d3b10637ae3" />
-        <range start1="104" end1="105" start2="113" end2="114" changelist="6ff3f776-c98b-4b23-8328-2d3b10637ae3" />
+        <range start1="64" end1="65" start2="77" end2="77" changelist="6ff3f776-c98b-4b23-8328-2d3b10637ae3" />
+        <range start1="75" end1="76" start2="87" end2="88" changelist="7befc73d-6280-4986-bce5-191c5f0cc0f6" />
       </ranges>
     </file>
   </component>
@@ -70,26 +65,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "full.screen.before.presentation.mode": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "CodeWithMe",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CodeWithMe&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\hp\PycharmProjects\softUniPythonOOP\exam_preparation" />
@@ -99,7 +95,29 @@
       <recent name="C:\Users\hp\PycharmProjects\softUniPythonOOP\exam_preparation\Python OOP Exam - 10 December 2022\unit_testing" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test.TestPetShop.test_feed_pet_enough_qty">
+  <component name="RunManager" selected="Python.test">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="softUniPythonOOP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test.TestPetShop.test_feed_pet_enough_qty" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="softUniPythonOOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -127,21 +145,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test.TestPetShop.test_feed_pet_missing_food&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test.TestPetShop.test_not_enough_qty_food" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="softUniPythonOOP" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/unit_test/project/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.TestPetShop.test_not_enough_qty_food&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -177,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
         <item itemvalue="Python tests.Python tests for test.TestPetShop.test_feed_pet_enough_qty" />
         <item itemvalue="Python tests.Python tests for test.TestPetShop.test_feed_pet_missing_food" />
         <item itemvalue="Python tests.Python tests in test.py" />
         <item itemvalue="Python tests.Python tests for test.TestPetShop.test_repr_" />
-        <item itemvalue="Python tests.Python tests for test.TestPetShop.test_not_enough_qty_food" />
       </list>
     </recent_temporary>
   </component>
@@ -274,14 +277,8 @@
       <workItem from="1681603408175" duration="780000" />
       <workItem from="1681604357726" duration="233000" />
       <workItem from="1681643814141" duration="1504000" />
-      <workItem from="1681648020338" duration="37118000" />
-    </task>
-    <task id="LOCAL-00025" summary="Exercise: EncapsulationExercise: Encapsulation 0/4">
-      <created>1678198223797</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1678198223797</updated>
+      <workItem from="1681648020338" duration="38532000" />
+      <workItem from="1681708604139" duration="664000" />
     </task>
     <task id="LOCAL-00026" summary="Exercise: EncapsulationExercise: Encapsulation 2/4">
       <created>1678279499601</created>
@@ -619,7 +616,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681677429638</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Python OOP Exam - 15 August 2021 293/300">
+      <created>1681687184581</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1681687184581</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -638,7 +642,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="exam preparation" />
     <MESSAGE value="Exercise: Decorators 8/9" />
     <MESSAGE value="Lab: Unit Testing - Completed" />
     <MESSAGE value="Python OOP Retake Exam - 19 December 2022 - Unit test completed&#10;all score 296/300" />
@@ -663,7 +666,8 @@
     <MESSAGE value="Python OOP Retake Exam - 22 Aug 2020 283/300" />
     <MESSAGE value="Python OOP Exam - 14 August 2022 300/300" />
     <MESSAGE value="Python OOP Exam - 15 August 2021 193/300" />
-    <option name="LAST_COMMIT_MESSAGE" value="Python OOP Exam - 15 August 2021 193/300" />
+    <MESSAGE value="Python OOP Exam - 15 August 2021 293/300" />
+    <option name="LAST_COMMIT_MESSAGE" value="Python OOP Exam - 15 August 2021 293/300" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -718,7 +722,7 @@
     <SUITE FILE_PATH="coverage/softUniPythonOOP$squares.coverage" NAME="squares Coverage Results" MODIFIED="1679149221821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230317_Iterators_And_Generators" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$number_increment.coverage" NAME="number_increment Coverage Results" MODIFIED="1679467054803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230321_Decorators" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$execution_time.coverage" NAME="execution_time Coverage Results" MODIFIED="1679649127937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230323_Exercise_Decorators" />
-    <SUITE FILE_PATH="coverage/softUniPythonOOP$test.coverage" NAME="test Coverage Results" MODIFIED="1681683484403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project" />
+    <SUITE FILE_PATH="coverage/softUniPythonOOP$test.coverage" NAME="test Coverage Results" MODIFIED="1681708675605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 15 August 2021/bakery/project" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$animal.coverage" NAME="animal Coverage Results" MODIFIED="1679040476504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230314_SOLID/02_OCP" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$driver.coverage" NAME="driver Coverage Results" MODIFIED="1680598105426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 11 December 2021/christmas_races/project" />
     <SUITE FILE_PATH="coverage/softUniPythonOOP$multiply.coverage" NAME="multiply Coverage Results" MODIFIED="1679467423951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20230321_Decorators" />

@@ -62,7 +62,6 @@ class Bakery:
         return f'Table {available_table[0].table_number} has been reserved for {number_of_people} people'
 
     def order_food(self, table_number, *food_name):
-        new_line = '\n'
         result = [f'Table {table_number} ordered:']
         result1 = [f'{self.name} does not have in the menu:']
         available_table = [t for t in self.tables_repository if t.table_number == table_number]

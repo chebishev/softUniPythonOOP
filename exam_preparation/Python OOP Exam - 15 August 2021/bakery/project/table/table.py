@@ -63,7 +63,7 @@ class Table(ABC):
 
     def order_drink(self, drink: Drink):
         self.drink_orders.append(drink)
-        return f'- {drink.name} {drink.brand} - {drink.portion:.2f}ml - {drink.price:.2f}lv'
+        return str(drink)
 
     def get_bill(self):
         total = 0
