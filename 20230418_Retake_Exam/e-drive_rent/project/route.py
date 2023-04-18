@@ -36,5 +36,17 @@ class Route:
             raise ValueError("Length cannot be less than 1.00 kilometer!")
         self.__length = value
 
+    def __eq__(self, other):
+        return self.start_point == other.start_point and \
+            self.end_point == other.end_point and \
+            self.length == other.length
 
+    def __gt__(self, other):
+        return self.start_point == other.start_point and \
+            self.end_point == other.end_point and \
+            self.length > other.length
 
+    def __lt__(self, other):
+        return self.start_point == other.start_point and \
+            self.end_point == other.end_point and \
+            self.length < other.length

@@ -40,13 +40,11 @@ class ManagingApp:
         route_id = len(self.routes) + 1
         new_route = Route(start_point, end_point, length, route_id)
         for route in self.routes:
-            if route.start_point == start_point and \
-                    route.end_point == end_point and \
-                    route.length == length:
+            if route == new_route:
                 return f"{start_point}/{end_point} - {length} km had already been added to our platform."
-            elif route.start_point == start_point and route.end_point == end_point and route.length < length:
+            elif route < new_route:
                 return f"{start_point}/{end_point} shorter route had already been added to our platform."
-            elif route.start_point == start_point and route.end_point == end_point and route.length > length:
+            elif route > new_route:
                 route.is_locked = True
         else:
             self.routes.append(new_route)

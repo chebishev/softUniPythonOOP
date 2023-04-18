@@ -13,6 +13,5 @@ class CargoVan(BaseVehicle):
 
     def drive(self, mileage):
         percentage_to_reduce = round(mileage / self.get_max_mileage * 100)
-        percentage_to_reduce += 5 # TODO 0.05 from the battery as alternative to 5%
+        percentage_to_reduce += 5  # TODO 0.05 from the battery as alternative to 5%
         self.battery_level -= percentage_to_reduce
-
