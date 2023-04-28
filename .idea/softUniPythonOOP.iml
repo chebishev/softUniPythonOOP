@@ -2,6 +2,7 @@
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/exam_preparation/Python OOP Exam - 10 April 2021/aqua_shop" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test_project_import" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />

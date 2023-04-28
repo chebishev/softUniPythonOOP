@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 
 
 class BaseAquarium(ABC):
-    POSSIBLE_FISH_TYPES = {
+    SUITABLE_WATER = {
         "FreshwaterFish": "FreshwaterAquarium",
         "SaltwaterFish": "SaltwaterAquarium"
     }
@@ -28,16 +28,15 @@ class BaseAquarium(ABC):
         return sum(decoration.comfort for decoration in self.decorations)
 
     def add_fish(self, fish):
+
         if self.capacity == len(self.fish):
             return "Not enough capacity."
 
-        # TODO check if this logic is correct:
-        fish_type = fish.__class__.__name__  # getting the class name of the given fish object
-        if fish_type in self.POSSIBLE_FISH_TYPES:  # checking if the fish type is in the list of possible fish types
-            # checking if the aquarium type is suitable for this type of fish ??
-            if self.__class__.__name__ == self.POSSIBLE_FISH_TYPES[fish_type]:
-                self.fish.append(fish)
-                return f"Successfully added {fish_type} to {self.name}."
+        if self.SUITABLE_WATER[fish.__class__.__name__] != self.__class__.__name__:
+            return "Water not suitable."
+
+        self.fish.append(fish)
+        return f"Successfully added {fish.__class__.__name__} to {self.name}."
 
     def remove_fish(self, fish):
         if fish in self.fish:
@@ -54,5 +53,5 @@ class BaseAquarium(ABC):
         fish_names = ", ".join(fish.name for fish in self.fish) if self.fish else "none"
         return f"{self.name}:\n" \
                f"Fish: {fish_names}\n" \
-            f"Decorations: {len(self.decorations)}\n" \
-            f"Comfort: {self.calculate_comfort()}"
+               f"Decorations: {len(self.decorations)}\n" \
+               f"Comfort: {self.calculate_comfort()}"

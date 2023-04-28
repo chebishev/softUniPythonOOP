@@ -3,6 +3,8 @@ from project.aquarium.saltwater_aquarium import SaltwaterAquarium
 from project.decoration.decoration_repository import DecorationRepository
 from project.decoration.ornament import Ornament
 from project.decoration.plant import Plant
+from project.fish.freshwater_fish import FreshwaterFish
+from project.fish.saltwater_fish import SaltwaterFish
 
 
 class Controller:
@@ -13,6 +15,10 @@ class Controller:
     VALID_DECORATION_TYPES = {
         "Ornament": Ornament,
         "Plant": Plant
+    }
+    POSSIBLE_FISH_TYPES = {
+        "FreshwaterFish": FreshwaterFish,
+        "SaltwaterFish": SaltwaterFish
     }
 
     def __init__(self):
@@ -40,18 +46,33 @@ class Controller:
 
         aquarium = [a for a in self.aquariums if a.name == aquarium_name]
         if aquarium:
-            aquarium.append(decoration)
+            aquarium[0].append(decoration)
             self.decorations_repository.remove(decoration)
             return f"Successfully added {decoration_type} to {aquarium_name}."
 
     def add_fish(self, aquarium_name, fish_type, fish_name, fish_species, price):
-        ...
+        if fish_type not in self.POSSIBLE_FISH_TYPES:
+            return f"There isn't a fish of type {fish_type}."
+
+        for aquarium in self.aquariums:
+            if aquarium.name == aquarium_name:
+                fish = self.POSSIBLE_FISH_TYPES[fish_type](fish_name, fish_species, price)
+                aquarium.add_fish(fish)
 
     def feed_fish(self, aquarium_name):
-        ...
+        for aquarium in self.aquariums:
+            if aquarium.name == aquarium_name:
+                for fish in aquarium.fish:
+                    fish.eat()
+                return f"Fish fed: {len(aquarium.fish)}"
 
     def calculate_value(self, aquarium_name):
-        ...
+        total = 0
+        for aquarium in self.aquariums:
+            if aquarium.name == aquarium_name:
+                total += sum(fish.price for fish in aquarium.fish)
+                total += sum(decoration.price for decoration in aquarium.decorations)
+                return f"The value of Aquarium {aquarium_name} is {total:.2f}."
 
     def report(self):
         result = []

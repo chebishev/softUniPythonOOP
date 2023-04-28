@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ff3f776-c98b-4b23-8328-2d3b10637ae3" name="Changes" comment="Python OOP Retake Exam - 18 Apr 2023 untested">
+    <list default="true" id="6ff3f776-c98b-4b23-8328-2d3b10637ae3" name="Changes" comment="Python OOP Exam - 10 April 2021 166/300">
+      <change beforePath="$PROJECT_DIR$/.idea/softUniPythonOOP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/softUniPythonOOP.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/20230418_Retake_Exam/unit_test/project/test.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 10 April 2021/aqua_shop/project.zip" beforeDir="false" afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 10 April 2021/aqua_shop/project.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 10 April 2021/aqua_shop/project/aquarium/base_aquarium.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 10 April 2021/aqua_shop/project/aquarium/base_aquarium.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 10 April 2021/aqua_shop/project/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam_preparation/Python OOP Exam - 10 April 2021/aqua_shop/project/controller.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,27 +279,8 @@
       <workItem from="1680872605825" duration="506000" />
       <workItem from="1680948005183" duration="10510000" />
       <workItem from="1680962021689" duration="2789000" />
-    </task>
-    <task id="LOCAL-00023" summary="Lab: Encapsulation - Completed">
-      <created>1678090202319</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1678090202319</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Exercise: EncapsulationExercise: Encapsulation 0/4">
-      <created>1678197781780</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1678197781780</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Exercise: EncapsulationExercise: Encapsulation 0/4">
-      <created>1678198223797</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1678198223797</updated>
+      <workItem from="1682678906480" duration="6963000" />
+      <workItem from="1682688404475" duration="1802000" />
     </task>
     <task id="LOCAL-00026" summary="Exercise: EncapsulationExercise: Encapsulation 2/4">
       <created>1678279499601</created>
@@ -620,7 +604,28 @@
       <option name="project" value="LOCAL" />
       <updated>1680861434197</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Python OOP Exam - 10 April 2021">
+      <created>1682680185270</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1682680185270</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Python OOP Exam - 10 April 2021 100/300">
+      <created>1682682597829</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1682682597829</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Python OOP Exam - 10 April 2021 166/300">
+      <created>1682687799282</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1682687799282</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -639,9 +644,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Decorators - Completed" />
-    <MESSAGE value="exam preparation" />
-    <MESSAGE value="Exercise: Decorators 8/9" />
     <MESSAGE value="Lab: Unit Testing - Completed" />
     <MESSAGE value="Python OOP Retake Exam - 19 December 2022 - Unit test completed&#10;all score 296/300" />
     <MESSAGE value="Python OOP Exam - 10 December 2022 - Completed" />
@@ -664,7 +666,10 @@
     <MESSAGE value="Python OOP Retake Exam - 23 August 2021 - Completed" />
     <MESSAGE value="Python OOP Retake Exam - 22 Aug 2020 283/300" />
     <MESSAGE value="Python OOP Retake Exam - 22 Aug 2020 - Completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Python OOP Retake Exam - 22 Aug 2020 - Completed" />
+    <MESSAGE value="Python OOP Exam - 10 April 2021" />
+    <MESSAGE value="Python OOP Exam - 10 April 2021 100/300" />
+    <MESSAGE value="Python OOP Exam - 10 April 2021 166/300" />
+    <option name="LAST_COMMIT_MESSAGE" value="Python OOP Exam - 10 April 2021 166/300" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
