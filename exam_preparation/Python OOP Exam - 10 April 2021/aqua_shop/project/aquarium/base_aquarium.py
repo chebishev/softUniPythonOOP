@@ -31,8 +31,10 @@ class BaseAquarium(ABC):
         if self.capacity == len(self.fish):
             return "Not enough capacity."
 
-        fish_type = fish.__class__.__name__
-        if fish_type in self.POSSIBLE_FISH_TYPES:
+        # TODO check if this logic is correct:
+        fish_type = fish.__class__.__name__  # getting the class name of the given fish object
+        if fish_type in self.POSSIBLE_FISH_TYPES:  # checking if the fish type is in the list of possible fish types
+            # checking if the aquarium type is suitable for this type of fish ??
             if self.__class__.__name__ == self.POSSIBLE_FISH_TYPES[fish_type]:
                 self.fish.append(fish)
                 return f"Successfully added {fish_type} to {self.name}."
