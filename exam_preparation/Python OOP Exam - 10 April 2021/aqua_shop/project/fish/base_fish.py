@@ -2,16 +2,19 @@ from abc import ABC, abstractmethod
 
 
 class BaseFish(ABC):
+    SIZE_INCREASE = 5
+
+    @abstractmethod
     def __init__(self, name, species, size, price):
         self.name = name
         self.species = species
         self.size = size
         self.price = price
-        
+
     @property
     def name(self):
         return self.__name
-    
+
     @name.setter
     def name(self, value):
         if not value:
@@ -38,7 +41,9 @@ class BaseFish(ABC):
             raise ValueError("Price cannot be equal to or below zero.")
         self.__price = value
 
-    @abstractmethod
+    @property
+    def get_size_increase(self):
+        return self.SIZE_INCREASE
+
     def eat(self):
-        self.size += 5
-        
+        self.size += self.get_size_increase
