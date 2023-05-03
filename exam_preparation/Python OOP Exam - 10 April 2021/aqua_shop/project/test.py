@@ -13,15 +13,7 @@ aquarium = FreshwaterAquarium("Freshwater Aquarium")
 aquarium.add_fish(fish_one)
 aquarium.add_fish(fish_two)
 controller.aquariums.append(aquarium)
-for decoration in controller.decorations_repository.decorations:
-    print(decoration.__class__.__name__)
-print(controller.insert_decoration("Freshwater Aquarium", "Plant"))
-print(str(aquarium))
-for decoration in controller.decorations_repository.decorations:
-    print(decoration.__class__.__name__)
+print(len(controller.decorations_repository.decorations))
+controller.insert_decoration("Freshwater Aquarium", "Plant")
 print(controller.insert_decoration("Freshwater Aquarium", "Ornament"))
-controller.add_decoration("Plant")
-controller.add_decoration("Ornament")
-print(controller.report())
-print(controller.decorations_repository.remove(Plant()))
-print(controller.report())
+

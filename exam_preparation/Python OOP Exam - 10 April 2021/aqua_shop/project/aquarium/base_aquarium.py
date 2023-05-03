@@ -35,11 +35,13 @@ class BaseAquarium(ABC):
         if self.capacity <= len(self.fish):
             return "Not enough capacity."
 
-        if not self.SUITABLE_WATER[fish.__class__.__name__] == self.__class__.__name__:
+        fish_type = fish.__class__.__name__
+
+        if not self.SUITABLE_WATER[fish_type] == self.__class__.__name__:
             return "Water not suitable."
 
         self.fish.append(fish)
-        return f"Successfully added {fish.__class__.__name__} to {self.name}."
+        return f"Successfully added {fish_type} to {self.name}."
 
     def remove_fish(self, fish):
         if fish in self.fish:
@@ -53,10 +55,8 @@ class BaseAquarium(ABC):
             fish.eat()
 
     def __str__(self):
-        if self.fish:
-            fish_names = " ".join(fish.name for fish in self.fish)
-        else:
-            fish_names = "none"
+        fish_names = " ".join(fish.name for fish in self.fish) if self.fish else "none"
+
         return f"{self.name}:\n" \
                f"Fish: {fish_names}\n" \
                f"Decorations: {len(self.decorations)}\n" \
