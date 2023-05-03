@@ -6,12 +6,18 @@ class DecorationRepository:
         self.decorations.append(decoration)
 
     def remove(self, decoration):
-        if decoration not in self.decorations:
+        decoration = self.find_by_type(decoration.__class__.__name__)
+        if decoration == "None":
             return False
-        self.decorations.remove(decoration)
-        return True
+        else:
+            for d in self.decorations:
+                if d == decoration:
+                    self.decorations.remove(d)
+                    return True
 
     def find_by_type(self, decoration_type):
-        if not [decoration for decoration in self.decorations if decoration.__class__.__name__ == decoration_type]:
-            return None
-        return [decoration for decoration in self.decorations if decoration.__class__.__name__ == decoration_type][0]
+        for decoration in self.decorations:
+            if decoration.__class__.__name__ == decoration_type:
+                return decoration
+        else:
+            return "None"

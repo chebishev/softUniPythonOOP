@@ -25,14 +25,17 @@ class BaseAquarium(ABC):
         self.__name = value
 
     def calculate_comfort(self):
-        return sum(decoration.comfort for decoration in self.decorations)
+        total = 0
+        for decoration in self.decorations:
+            total += decoration.comfort
+        return total
 
     def add_fish(self, fish):
 
-        if self.capacity == len(self.fish):
+        if self.capacity <= len(self.fish):
             return "Not enough capacity."
 
-        if self.SUITABLE_WATER[fish.__class__.__name__] != self.__class__.__name__:
+        if not self.SUITABLE_WATER[fish.__class__.__name__] == self.__class__.__name__:
             return "Water not suitable."
 
         self.fish.append(fish)
@@ -50,7 +53,10 @@ class BaseAquarium(ABC):
             fish.eat()
 
     def __str__(self):
-        fish_names = ", ".join(fish.name for fish in self.fish) if self.fish else "none"
+        if self.fish:
+            fish_names = " ".join(fish.name for fish in self.fish)
+        else:
+            fish_names = "none"
         return f"{self.name}:\n" \
                f"Fish: {fish_names}\n" \
                f"Decorations: {len(self.decorations)}\n" \
