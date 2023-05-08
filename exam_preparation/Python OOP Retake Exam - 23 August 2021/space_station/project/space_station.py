@@ -51,7 +51,7 @@ class SpaceStation:
 
     def recharge_oxygen(self):
         for astronaut in self.astronaut_repository.astronauts:
-            astronaut.oxygen += 10
+            astronaut.increase_oxygen(10)
 
     def send_on_mission(self, planet_name):
         planet = self.planet_repository.find_by_name(planet_name)
