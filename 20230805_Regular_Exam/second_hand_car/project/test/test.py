@@ -26,17 +26,22 @@ class SecondHandCarTest(TestCase):
         self.assertEqual(str(e.exception), 'Please, second-hand cars only! Mileage must be greater than 100!')
 
     def test_set_promotional_price_higher(self):
+        self.assertEqual(self.car.price, 10000)
         with self.assertRaises(ValueError) as e:
             self.car.set_promotional_price(10001)
             self.assertEqual(str(e.exception), 'You are supposed to decrease the price!')
+        self.assertEqual(self.car.price, 10000)
 
     def test_set_promotional_price_valid(self):
-        self.car.set_promotional_price(9999)
+        self.assertEqual(self.car.price, 10000)
         self.assertEqual(self.car.set_promotional_price(9999), 'The promotional price has been successfully set.')
         self.assertEqual(self.car.price, 9999)
 
     def test_need_repair_invalid(self):
         self.assertEqual(self.car.need_repair(5001, 'repair'), 'Repair is impossible!')
+        self.assertEqual(self.car.price, 10000)
+        self.assertEqual(self.car.repairs, [])
+        self.assertEqual(len(self.car.repairs), 0)
 
     def test_need_repair_valid(self):
         self.assertEqual(self.car.need_repair(1000, 'repair'), 'Price has been increased due to repair charges.')
