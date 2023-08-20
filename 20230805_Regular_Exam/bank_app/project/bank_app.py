@@ -35,8 +35,8 @@ class BankApp:
     def add_client(self, client_type, client_name, client_id, income):
         if client_type not in self.valid_clients:
             raise Exception("Invalid client type!")
-        if self.capacity == len(self.clients):
-            raise Exception("Not enough bank capacity.")
+        if self.capacity <= len(self.clients):
+            return "Not enough bank capacity."
         self.clients.append(self.valid_clients[client_type](client_name, client_id, income))
         return f"{client_type} was successfully added."
 
@@ -99,29 +99,29 @@ class BankApp:
 
 
 # test inputs:
-
-bank = BankApp(3)
-
-print(bank.add_loan('StudentLoan'))
-print(bank.add_loan('MortgageLoan'))
-print(bank.add_loan('StudentLoan'))
-print(bank.add_loan('MortgageLoan'))
-
-print(bank.add_client('Student', 'Peter Simmons', '1234567891', 500))
-print(bank.add_client('Adult', 'Samantha Peters', '1234567000', 1000))
-print(bank.add_client('Student', 'Simon Mann', '1234567999', 700))
+#
+# bank = BankApp(3)
+#
+# print(bank.add_loan('StudentLoan'))
+# print(bank.add_loan('MortgageLoan'))
+# print(bank.add_loan('StudentLoan'))
+# print(bank.add_loan('MortgageLoan'))
+#
+# print(bank.add_client('Student', 'Peter Simmons', '1234567891', 500))
+# print(bank.add_client('Adult', 'Samantha Peters', '1234567000', 1000))
+# print(bank.add_client('Student', 'Simon Mann', '1234567999', 700))
 # print(bank.add_client('Student', 'Tammy Smith', '1234567555', 700))
-
-print(bank.grant_loan('StudentLoan', '1234567891'))
-print(bank.grant_loan('MortgageLoan', '1234567000'))
-print(bank.grant_loan('MortgageLoan', '1234567000'))
-
-print(bank.remove_client('1234567999'))
-
-print(bank.increase_loan_interest('StudentLoan'))
-print(bank.increase_loan_interest('MortgageLoan'))
-
-print(bank.increase_clients_interest(1.2))
-print(bank.increase_clients_interest(3.5))
-
-print(bank.get_statistics())
+#
+# print(bank.grant_loan('StudentLoan', '1234567891'))
+# print(bank.grant_loan('MortgageLoan', '1234567000'))
+# print(bank.grant_loan('MortgageLoan', '1234567000'))
+#
+# print(bank.remove_client('1234567999'))
+#
+# print(bank.increase_loan_interest('StudentLoan'))
+# print(bank.increase_loan_interest('MortgageLoan'))
+#
+# print(bank.increase_clients_interest(1.2))
+# print(bank.increase_clients_interest(3.5))
+#
+# print(bank.get_statistics())

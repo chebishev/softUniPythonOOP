@@ -6,9 +6,5 @@ class MortgageLoan(BaseLoan):
     INTEREST_RATE = 3.5
     AMOUNT = 50000.0
 
-    def __init__(self, interest_rate=INTEREST_RATE, amount=AMOUNT):
-        super().__init__(interest_rate, amount)
-
-    def increase_interest_rate(self):
-        self.interest_rate += self.PERCENTAGE
-        return self.interest_rate
+    def __init__(self):
+        super().__init__(interest_rate=self.INTEREST_RATE, amount=self.AMOUNT)

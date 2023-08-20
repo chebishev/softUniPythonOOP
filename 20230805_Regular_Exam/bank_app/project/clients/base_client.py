@@ -2,6 +2,8 @@ from abc import ABC, abstractmethod
 
 
 class BaseClient(ABC):
+    PERCENTAGE = 0
+
     @abstractmethod
     def __init__(self, name, client_id, income, interest):
         self.name = name
@@ -40,6 +42,9 @@ class BaseClient(ABC):
             raise ValueError("Income must be greater than zero!")
         self.__income = value
 
-    @abstractmethod
+    @property
+    def get_percentage(self):
+        return self.PERCENTAGE
+
     def increase_clients_interest(self):
-        pass
+        self.interest += self.get_percentage
