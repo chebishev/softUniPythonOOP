@@ -39,7 +39,7 @@ class SecondHandCarTest(TestCase):
         self.assertEqual(self.car.price, 10000)
         with self.assertRaises(ValueError) as e:
             self.car.set_promotional_price(10001)
-            self.assertEqual(str(e.exception), 'You are supposed to decrease the price!')
+        self.assertEqual(str(e.exception), 'You are supposed to decrease the price!')
         self.assertEqual(self.car.price, 10000)
 
     def test_set_promotional_price_valid(self):
