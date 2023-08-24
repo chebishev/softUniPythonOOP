@@ -1,4 +1,5 @@
 from abc import ABC, abstractmethod
+from math import floor
 
 
 class BaseTeam(ABC):
@@ -44,11 +45,15 @@ class BaseTeam(ABC):
         self.__advantage = value
 
     def win(self):
+        self.wins += 1
         self.advantage += self.ADVANTAGE
+
+    def result(self):
+        return self.advantage + sum(equipment.protection for equipment in self.equipment)
 
     def get_statistics(self):
         total_price_of_equipment = sum(p.price for p in self.equipment)
-        avg_team_protection = sum(p.protection for p in self.equipment) / len(self.equipment)
+        avg_team_protection = sum(p.protection for p in self.equipment) / len(self.equipment) if len(self.equipment) > 0 else 0
 
         return f"Name: {self.name}\n" \
                f"Country: {self.country}\n" \
@@ -56,4 +61,4 @@ class BaseTeam(ABC):
                f"Budget: {self.budget:.2f}EUR\n" \
                f"Wins: {self.wins}\n" \
                f"Total Equipment Price: {total_price_of_equipment:.2f}\n" \
-               f"Average Protection: {int(avg_team_protection)}"
+               f"Average Protection: {floor(avg_team_protection)}"
