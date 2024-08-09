@@ -8,3 +8,4 @@ SoftUni works directly with over 100 technology companies and has an active comm
 
 # Videos from solved exams:
 - Python OOP Regular Exam - 9 December 2023: https://youtu.be/n6VEl9t-6qA
+- Python OOP Retake Exam - 19 December 2023: https://youtu.be/M7Auy3INX2U
